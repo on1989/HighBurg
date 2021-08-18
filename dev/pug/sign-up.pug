@@ -1,0 +1,44 @@
+doctype html
+html
+	head
+		meta(charset="utf-8")
+		meta(http-equiv="X-UA-Compatible", content="IE=edge")
+		meta(name="viewport" id="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no")
+		meta(name="theme-color" content="#2A1730")
+		meta(name="msapplication-navbutton-color" content="#2A1730")
+		meta(name="apple-mobile-web-app-status-bar-style" content="#2A1730")
+		meta(name="apple-mobile-web-app-capable" content="yes")
+		title Test Pug Page
+		link(href="css/main.css" rel="stylesheet")
+		link(href="https://fonts.googleapis.com/css?family=Roboto:400,500|Lato:400,500|Montserrat:400,600,700,800|Source+Sans+Pro:400,700&display=swap" rel="stylesheet")
+		//(if lt IE 9)
+		script(src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js")
+		script(src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js")
+		//(endif)
+	body
+		include layout/header.pug
+		include layout/sign-up-content.pug
+		include layout/footer.pug
+		.modal.fade.info-description
+			.modal-dialog
+				.modal-content
+					i.icon-close(data-dismiss="modal", aria-hidden="true")
+					ul
+						li
+							i.icon-newbie
+							h4 Newbie Permisions
+							p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						li
+							i.icon-rookie
+							h4 Rookie Permisions
+							p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						li
+							i.icon-verified
+							h4 Verified Permisions
+							p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						li
+							i.icon-moderator
+							h4 Moderator Permisions
+							p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+					a.button(href="#") Got It
+		script(src="js/build.js")

@@ -1,0 +1,38 @@
+$black:#000;
+$white:#fff;
+$gray:#CBCBCB;
+$green: #8CC153;
+$dark-gray:#313131;
+$Montserrat: 'Montserrat', sans-serif;
+$Lato: 'Lato', sans-serif;
+$Roboto: 'Roboto', sans-serif;
+.about-us{
+	max-width: 700px;
+	width: 100%;
+	margin: 65px 0 110px;
+	h1{
+		font-weight: 800;
+		font-size: 36px;
+		font-family: $Montserrat;
+		color: $dark-gray;
+		margin-bottom: 15px;
+	}
+	p{
+		font-size: 18px;
+		line-height: 2;
+		color: $dark-gray;
+		margin-bottom: 40px;
+		font-family: $Roboto;
+	}
+}
+.dark{
+	.about-us{
+
+		h1{
+			color: $white;
+		}
+		p{
+			color: $white;
+		}
+	}
+}

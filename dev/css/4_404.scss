@@ -1,0 +1,46 @@
+.error404{
+
+	section{
+
+	}
+	footer{
+		padding-top: 60px;
+		overflow: hidden;
+		height: 200px;
+	}
+	.footer-block{
+		transform: rotate(175.91deg);
+		width: calc(100vw + 20px);
+		overflow: hidden;
+		transform-origin: center;
+	}
+}
+.page404{
+	padding: 75px 0;
+	h1{
+		font-weight: 800;
+		font-size: 50px;
+		line-height: 60px;
+		color: #464646;
+	}
+	img{
+		margin: 0 auto;
+		display: table;
+	}
+	p{
+		font-size: 16px;
+		line-height: 24px;
+		color: #000;
+	}
+	.button{
+		width: 224px;
+		height: 52px;
+		border-radius: 112px;
+		font-size: 18px;
+		margin-top: 35px;
+		&:before{
+			margin-right: 10px;
+			margin-top: -2px;
+		}
+	}
+}

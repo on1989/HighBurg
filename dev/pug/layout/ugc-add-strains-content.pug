@@ -1,0 +1,161 @@
+section
+	.ugc
+		.container
+			.row
+				.col-lg-3.col-md-12.col-sm-12.col-xs-12
+					include left-sidebar-ugc
+				.col-lg-6.col-md-12.col-sm-12.col-xs-12
+					form.steps
+						ul.multi-step.seven
+							li.active
+								a(href='#step-one', data-toggle='tab')
+							li
+								a(href='#step-two', data-toggle='tab')
+							li
+								a(href='#step-three', data-toggle='tab')
+							li
+								a(href='#step-four', data-toggle='tab')
+							li
+								a(href='#step-five', data-toggle='tab')
+							li
+								a(href='#step-six', data-toggle='tab')
+							li
+								a(href='#step-seven', data-toggle='tab')
+						// Tab panes
+						.tab-content
+							#step-one.tab-pane.active
+								h3 Add new strain Step 1
+								.input
+									label Strain Name
+									input(type="text")
+								.buttons
+									a.button(href="#") Next
+									input.button(type="button" value="cancel")
+							#step-two.tab-pane
+								h3 Add new strain Step 2
+								.select
+									select
+										option(value="vibe" selected) Select Vibe
+										option(value="vibe-chill") Chill
+										option(value="vibe-creative") Creative
+										option(value="vibe-energized") Energized
+										option(value="vibe-focused") Focused
+										option(value="vibe-higher") Higher
+										option(value="vibe-sleepy") Sleepy
+										option(value="vibe-turned-on") Turned On
+										option(value="vibe-relief") Relief
+								.buttons
+									a.button(href="#") Next
+									a.button(href="#") Back
+							#step-three.tab-pane
+								h3 Add new strain Step 3
+								.select
+									select
+										option(value="#" selected) Select Attributes
+										option(value="#") Body Pain
+										option(value="#") Cramps
+										option(value="#") Depression
+										option(value="#") Eye Pressure
+										option(value="#") Fatigue
+										option(value="#") Headaches
+										option(value="#") Inflammation
+										option(value="#") Insomnia
+										option(value="#") Lack of Appetite
+										option(value="#") Muscle Spasms
+										option(value="#") Nausea
+										option(value="#") Seizures
+										option(value="#") Spasticity
+										option(value="#") Stress
+								.buttons
+									a.button(href="#") Next
+									a.button(href="#") Back
+							#step-four.tab-pane
+								h3 Add new strain Step 4
+								.select
+									select
+										option(value="#" selected) Select Type
+										option(value="type-hybrid") Hybrid
+										option(value="type-indica") Indica
+										option(value="type-sativa") Sativa
+								.buttons
+									a.button(href="#") Next
+									a.button(href="#") Back
+							#step-five.tab-pane
+								h3 Add new strain Step 5
+								.select
+									select
+										option(value="#" selected) Select Flavour
+										option(value="flavour-ammonia") Ammonia
+										option(value="flavour-apple") Apple
+										option(value="flavour-apricot") Apricot
+										option(value="flavour-berry") Berry
+										option(value="flavour-blue Cheese") Blue Cheese
+										option(value="flavour-blueberry") Blueberry
+										option(value="flavour-butter") Butter
+										option(value="flavour-cheese") Cheese
+										option(value="flavour-chemical") Chemical
+										option(value="flavour-chestnut") Chestnut
+										option(value="flavour-citrus") Citrus
+										option(value="flavour-coffee") Coffee
+										option(value="flavour-diesel") Diesel
+										option(value="flavour-earthy") Earthy
+										option(value="flavour-flowery") Flowery
+										option(value="flavour-grape") Grape
+										option(value="flavour-grapefruit") Grapefruit
+										option(value="flavour-honey") Honey
+										option(value="flavour-lavender") Lavender
+										option(value="flavour-lemon") Lemon
+										option(value="flavour-lime") Lime
+										option(value="flavour-mango") Mango
+										option(value="flavour-menthol") Menthol
+										option(value="flavour-mint") Mint
+										option(value="flavour-nutty") Nutty
+										option(value="flavour-orange") Orange
+										option(value="flavour-peach") Peach
+										option(value="flavour-pear") Pear
+										option(value="flavour-pepper") Pepper
+										option(value="flavour-pine") Pine
+										option(value="flavour-pineapple") Pineapple
+										option(value="flavour-plum") Plum
+										option(value="flavour-pungent") Pungent
+										option(value="flavour-pose") Rose
+										option(value="flavour-sage") Sage
+										option(value="flavour-skunk") Skunk
+										option(value="flavour-spicy") Spicy
+										option(value="flavour-strawberry") Strawberry
+										option(value="flavour-sweet") Sweet
+										option(value="flavour-tar") Tar
+										option(value="flavour-tea") Tea
+										option(value="flavour-tobacco") Tobacco
+										option(value="flavour-tree Fruit") Tree Fruit
+										option(value="flavour-tropical") Tropical
+										option(value="flavour-vanilla") Vanilla
+										option(value="flavour-violet") Violet
+										option(value="flavour-woody") Woody
+								.buttons
+									a.button(href="#") Next
+									a.button(href="#") Back
+							#step-six.tab-pane
+								h3 Add new strain Step 6
+								.add-file
+									input#add-file(type="file")
+									label.icon-plus(for="add-file") Profile Photo
+								.textarea
+									label Description
+									textarea
+								.buttons
+									a.button(href="#") Next
+									a.button(href="#") Back
+							#step-seven.tab-pane
+								h3
+								img(src="img/banner.jpg", alt="#")
+								ul
+									li Strain name
+									li Type
+									li Vibe
+									li Attributes
+									li Flavour
+								p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet sodales lorem sed lacinia. Nullam sodales eros augue, eu accumsan nunc placerat et. Sed et porta leo. Fusce risus turpis, mattis et tellus vitae, euismod eleifend eros. In bibendum nunc ac justo venenatis, placerat vulputate mauris feugiat. Nunc cursus lectus ut imperdiet tincidunt.
+								.buttons
+									input.button(type="submit" value="Publish")
+									a.button(href="#") Back

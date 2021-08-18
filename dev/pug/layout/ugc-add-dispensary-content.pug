@@ -1,0 +1,103 @@
+section
+	.ugc
+		.container
+			.row
+				.col-lg-3.col-md-12.col-sm-12.col-xs-12
+					include left-sidebar-ugc
+				.col-lg-6.col-md-12.col-sm-12.col-xs-12
+					form.steps
+						ul.multi-step.five
+							li.active
+								a(href='#step-one', data-toggle='tab')
+							li
+								a(href='#step-two', data-toggle='tab')
+							li
+								a(href='#step-three', data-toggle='tab')
+							li
+								a(href='#step-four', data-toggle='tab')
+							li
+								a(href='#step-five', data-toggle='tab')
+						// Tab panes
+						.tab-content
+							#step-one.tab-pane.active
+								h3 Add New Dispensary Step 1: NAME
+								.input
+									label Dispensary Name
+									input(type="text")
+								.buttons
+									a.button(href="#") Next
+									input.button(type="button" value="cancel")
+							#step-two.tab-pane
+								h3 Add New Dispensary Step 2: Location
+								.input
+									label City*
+									input(type="text")
+								.input
+									label Address*
+									input(type="text")
+								.input
+									label State*
+									input(type="text")
+								.input
+									label Latitude
+									input(type="text")
+								.input
+									label Longtitude
+									input(type="text")
+								.buttons
+									a.button(href="#") Next
+									a.button(href="#") Back
+							#step-three.tab-pane
+								h3 Add New Dispensary Step 3: Contact info
+								.input
+									label Email*
+									input(type="email")
+								.input
+									label Zip
+									input(type="text")
+								.input
+									label Phone
+									input(type="tel")
+								.input
+									label Fax
+									input(type="tel")
+								.input
+									label Website
+									input(type="text")
+								.buttons
+									a.button(href="#") Next
+									a.button(href="#") Back
+							#step-four.tab-pane
+								h3 Add New Dispensary Step 4: other info
+								.add-file
+									input#add-file(type="file")
+									label.icon-plus(for="add-file") Profile Photo
+								.input
+									label Embed Video
+									input(type="text")
+								.textarea
+									label Description
+									textarea
+								.timepicker
+									.start-time
+										input(id="start-time" value="00:00")
+										p AM
+									.end-time
+										input(id="end-time" value="00:00")
+										p PM
+								.buttons
+									a.button(href="#") Next
+									a.button(href="#") Back
+							#step-five.tab-pane
+								h3 Final step
+								img(src="img/banner.jpg", alt="#")
+								ul
+									li.icon-marker Toronto, 111 Wellesley St W M7A1A8 Ontario, Canada
+									li.icon-link https://www.ocs.ca/
+									li.icon-mail ocs@gmail.com
+									li.icon-phone 1-905-459-6663
+									li.icon-clock 7:30am - 9:00pm
+								p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet sodales lorem sed lacinia. Nullam sodales eros augue, eu accumsan nunc placerat et. Sed et porta leo. Fusce risus turpis, mattis et tellus vitae, euismod eleifend eros. In bibendum nunc ac justo venenatis, placerat vulputate mauris feugiat. Nunc cursus lectus ut imperdiet tincidunt.
+								.buttons
+									input.button(type="submit" value="Finish")
+									a.button(href="#") Back

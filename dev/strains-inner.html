@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" id="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="theme-color" content="#2A1730">
+    <meta name="msapplication-navbutton-color" content="#2A1730">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#2A1730">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Test Pug Page</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500|Lato:400,500|Montserrat:400,600,700,800|Source+Sans+Pro:400,700&amp;display=swap" rel="stylesheet">
+    <!--(if lt IE 9)-->
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <!--(endif)-->
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 dfr">
+            <div class="burger"><span></span><span></span><span></span></div>
+            <nav class="quadmenu-default_theme quadmenu-align-left quadmenu-divider-hide quadmenu-carets-show quadmenu-background-color quadmenu-mobile-shadow-show quadmenu-dropdown-shadow-show quadmenu-hover-ripple quadmenu-is-embed quadmenu-notouch quadmenu-is-horizontal js quadmenu-v2.0.2" id="quadmenu" data-template="embed" data-theme="default_theme" data-unwrap="1" data-breakpoint="767">
+              <div class="quadmenu-container">
+                <div class="quadmenu-navbar-collapse collapsed in" id="quadmenu_0">
+                  <ul class="quadmenu-navbar-nav">
+                    <li class="quadmenu-item-1518 quadmenu-item quadmenu-item-object-mega quadmenu-item-has-children quadmenu-item-type-mega quadmenu-item-level-0 quadmenu-dropdown quadmenu-has-caret quadmenu-has-title quadmenu-has-link quadmenu-dropdown-right dropdown-maxheight" id="menu-item-1518"><a class="quadmenu-dropdown-toggle hoverintent" href=""><span class="quadmenu-item-content"><span class="quadmenu-caret"></span><span class="quadmenu-text hover t_1000">menu</span></span></a>
+                      <div class="quadmenu_btt t_300 quadmenu-dropdown-menu quadmenu-dropdown-stretch-boxed" id="dropdown-1518">
+                        <ul class="quadmenu-row ps-container ps-theme-default" data-ps-id="ed6eb218-ca1b-3c59-2781-c09b69a23e05">
+                          <li class="quadmenu-item-1519 quadmenu-item quadmenu-item-object-column quadmenu-item-has-children quadmenu-item-type-column col-xs-12 col-sm-8" id="menu-item-1519">
+                            <div id="dropdown-1519">
+                              <ul>
+                                <li class="quadmenu-item-1523 quadmenu-item quadmenu-item-object-widget quadmenu-item-type-widget" id="menu-item-1523">
+                                  <div class="quadmenu-item-widget widget widget_nav_menu">
+                                    <div class="menu-mega-ferst-colums-container">
+                                      <ul class="menu" id="menu-mega-ferst-colums">
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1463" id="menu-item-1463"><a href="#">News</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1464" id="menu-item-1464"><a href="#">Jaw-Dropping Headlines</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1465" id="menu-item-1465"><a href="#">Community</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1466" id="menu-item-1466"><a href="#">Legislation / Weekly Round up</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1467" id="menu-item-1467"><a href="#">Medicine</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1468" id="menu-item-1468"><a href="#">Business</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1469" id="menu-item-1469"><a href="#">Politics</a></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li class="quadmenu-item-1524 quadmenu-item quadmenu-item-object-widget quadmenu-item-type-widget" id="menu-item-1524">
+                                  <div class="quadmenu-item-widget widget widget_nav_menu">
+                                    <div class="menu-mega-two-colums-container">
+                                      <ul class="menu" id="menu-mega-two-colums">
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1475" id="menu-item-1475"><a href="#">Reviews</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1470" id="menu-item-1470"><a href="#">Strains</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1471" id="menu-item-1471"><a href="#">Products</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1472" id="menu-item-1472"><a href="#">Brands</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1473" id="menu-item-1473"><a href="#">Dispensaries</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1474" id="menu-item-1474"><a href="#">Bars & Restaurants</a></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li class="quadmenu-item-1524 quadmenu-item quadmenu-item-object-widget quadmenu-item-type-widget" id="menu-item-1524">
+                                  <div class="quadmenu-item-widget widget widget_nav_menu">
+                                    <div class="menu-mega-two-colums-container">
+                                      <ul class="menu" id="menu-mega-two-colums">
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1475" id="menu-item-1475"><a href="#">Cannabis info</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1470" id="menu-item-1470"><a href="#">Cannabasics</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1471" id="menu-item-1471"><a href="#">Encycloweedia</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1472" id="menu-item-1472"><a href="#">Strains</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1473" id="menu-item-1473"><a href="#">Dispensaries</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1474" id="menu-item-1474"><a href="#">Manufacturers</a></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li class="quadmenu-item-1523 quadmenu-item quadmenu-item-object-widget quadmenu-item-type-widget" id="menu-item-1523">
+                                  <div class="quadmenu-item-widget widget widget_nav_menu">
+                                    <div class="menu-mega-ferst-colums-container">
+                                      <ul class="menu" id="menu-mega-ferst-colums">
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1463" id="menu-item-1463"><a href="#">Lifestyle</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1464" id="menu-item-1464"><a href="#">Pot Culture</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1465" id="menu-item-1465"><a href="#">DIY</a></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li class="quadmenu-item-1524 quadmenu-item quadmenu-item-object-widget quadmenu-item-type-widget" id="menu-item-1524">
+                                  <div class="quadmenu-item-widget widget widget_nav_menu">
+                                    <div class="menu-mega-two-colums-container">
+                                      <ul class="menu" id="menu-mega-two-colums">
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1475" id="menu-item-1475"><a href="#">Health & Wellness</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1470" id="menu-item-1470"><a href="#">Treatments</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1471" id="menu-item-1471"><a href="#">Science</a></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li class="quadmenu-item-1524 quadmenu-item quadmenu-item-object-widget quadmenu-item-type-widget" id="menu-item-1524">
+                                  <div class="quadmenu-item-widget widget widget_nav_menu">
+                                    <div class="menu-mega-two-colums-container">
+                                      <ul class="menu" id="menu-mega-two-colums">
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1475" id="menu-item-1475"><a href="#">Events</a></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li class="quadmenu-item-1524 quadmenu-item quadmenu-item-object-widget quadmenu-item-type-widget" id="menu-item-1524">
+                                  <div class="quadmenu-item-widget widget widget_nav_menu">
+                                    <div class="menu-mega-two-colums-container">
+                                      <ul class="menu" id="menu-mega-two-colums">
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1475" id="menu-item-1475"><a href="#">Recipes</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1470" id="menu-item-1470"><a href="#">Food & Bev</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1471" id="menu-item-1471"><a href="#">Topicals</a></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li class="quadmenu-item-1546 quadmenu-item quadmenu-item-object-widget quadmenu-item-type-widget" id="menu-item-1546">
+                                  <div class="quadmenu-item-widget widget widget_custom_html">
+                                    <div class="textwidget custom-html-widget">
+                                      <div class="wpcf7" id="wpcf7-f1338-o1">
+                                        <form class="wpcf7-form">
+                                          <div class="subscribe icon-scissors">
+                                            <h3>The Weekly BuzZz</h3>
+                                            <p>Subscribe to the Weekly Buzz and never miss another marijuana moment!</p>
+                                            <div class="input"><span class="wpcf7-form-control-wrap your-email">
+                                                <input class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" type="email" name="your-email" value="" size="40" aria-required="true" aria-invalid="false" placeholder="E-mail *"></span></div>
+                                            <div class="input">
+                                              <input class="wpcf7-form-control wpcf7-submit button purple" type="submit" value="subscribe">
+                                            </div>
+                                          </div>
+                                        </form>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </li>
+                              </ul>
+                            </div>
+                          </li>
+                          <li class="quadmenu-item-1522 quadmenu-item quadmenu-item-object-column quadmenu-item-has-children quadmenu-item-type-column col-xs-12 col-sm-4" id="menu-item-1522">
+                            <div id="dropdown-1522">
+                              <ul>
+                                <li class="quadmenu-item-1527 quadmenu-item quadmenu-item-object-widget quadmenu-item-type-widget" id="menu-item-1527">
+                                  <div class="quadmenu-item-widget widget widget_custom_html">
+                                    <div class="textwidget custom-html-widget"><a class="logo" href=""><img src="img/now-logo.svg" alt=""></a>
+                                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p><a class="link" href="">Learn More</a>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li class="quadmenu-item-1528 quadmenu-item quadmenu-item-object-widget quadmenu-item-type-widget" id="menu-item-1528">
+                                  <div class="quadmenu-item-widget widget widget_custom_html">
+                                    <div class="textwidget custom-html-widget"><a class="logo" href=""><img src="img/esports.svg" alt=""></a>
+                                      <p>eCentral Sports is the Homebase for the creative class eSports fan in search of the latest news, cultural coverage, insights from experts, event access, stats, and local experience guides.</p><a class="link" href="">Learn More</a>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li class="quadmenu-item-1529 quadmenu-item quadmenu-item-object-widget quadmenu-item-type-widget" id="menu-item-1529">
+                                  <div class="quadmenu-item-widget widget widget_custom_html">
+                                    <div class="textwidget custom-html-widget"><a class="logo" href=""><img src="img/straight.png" alt=""></a>
+                                      <p>Established as the news, lifestyle, and entertainment weekly in Vancouver for 50 years, the Georgia Straight is an integral part of the active urban West Coast lifestyle with over 1.081 million readers per week.</p><a class="link" href="">Learn More</a>
+                                    </div>
+                                  </div>
+                                </li>
+                              </ul>
+                            </div>
+                          </li>
+                          <div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 3px;">
+                            <div class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div>
+                          </div>
+                          <div class="ps-scrollbar-y-rail" style="top: 0px; right: 3px;">
+                            <div class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 0px;"></div>
+                          </div>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav><a class="logo" href="/"><img src="img/logo.svg" alt=""></a>
+            <ul class="menu dfr">
+              <li><a href="#">Business</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Lifestyle</a></li>
+              <li><a href="#">DIY</a></li>
+            </ul>
+            <ul class="soc dfr">
+              <li><a class="icon-facebook" href="#"></a></li>
+              <li><a class="icon-twitter" href="#"></a></li>
+              <li><a class="icon-instagram" href="#"></a></li>
+            </ul>
+            <div class="checkbox-color">
+              <input id="black-color" type="checkbox">
+              <label class="icon-moon" for="black-color"></label>
+            </div>
+            <form class="search" id="searchform">
+              <input type="text" placeholder="Search and hit enter">
+              <button class="icon-search"></button>
+            </form>
+            <ul class="user dfr">
+              <li><a class="icon-user" href="#"></a>
+                <ul class="submenu">
+                  <li><a href="">Profile</a></li>
+                  <li><a href="">Log Out</a></li>
+                </ul>
+              </li>
+              <!--lia(href="#") Log In
+              -->
+              <!--lia(href="#") Sign Up
+              -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="strains-banner" style="background-color:#7A48E1; background-image:url(img/indica.svg);">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <div class="breadcrumbs"><span><a class="home" href="#">Home Page</a></span><span><a href="#">Strains</a></span><span><a href="#">Indica</a></span><span>Alaskin Thunderfuck (Extra Large)</span></div><img src="img/kings-primary.jpg" alt="">
+              <h1>Alaskin Thunderfuck<br>(Extra Large)</h1>
+              <div class="rating dfr">
+                <ul class="dfr" data-rating="4">
+                  <li class="icon-star"></li>
+                  <li class="icon-star"></li>
+                  <li class="icon-star"></li>
+                  <li class="icon-star"></li>
+                  <li class="icon-star"></li>
+                </ul>
+                <p>(131 reviews)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="strains-inner">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 dfrt">
+              <div class="content">
+                <div class="description">
+                  <div class="text">
+                    <h2>About Alaskin Thunderfuck (Extra Large) </h2>
+                    <p class="more" data-more="1000">The strain that’s named after the best kind of dream, a wet one. Wet Dream from San Diego California is a sativa dominant cross of Blue Dream x Ocean Beach Haze. This strain is designed for late-night enjoyment and arousal but is also great for daytime use and creative tasks. Wet Dream has an intoxicating aroma of lemongrass coupled with a soft woody pine flavor. Most Haze blends create rushing waves of euphoria, but the genetics of the Blue Dream in this cross help to mellow out some of those effects.<br><br>The Wet Dream Sativa strain is a well-known marijuana strain that gives smokers an incredible and unmatched euphoric energy. This is a great strain for when you just need some good vibes. The cannabis strain’s provocative name is actually a nod to its genetics. The Wet Dreams strain is a mixture of the ubiquitous cannabis hybrid strain Blue Dream and Ocean Beach Haze that hails from California. In this Wet Dream strain review, we will go into the mental effects that this strain is famous for then look into some of the medical benefits for medical cannabis patients.<br><br>The strain that’s named after the best kind of dream, a wet one. Wet Dream from San Diego California is a sativa dominant cross of Blue Dream x Ocean Beach Haze. This strain is designed for late-night enjoyment and arousal but is also great for daytime use and creative tasks. Wet Dream has an intoxicating aroma of lemongrass coupled with a soft woody pine flavor. Most Haze blends create rushing waves of euphoria, but the genetics of the Blue Dream in this cross help to mellow out some of those effects.<br><br>The Wet Dream Sativa strain is a well-known marijuana strain that gives smokers an incredible and unmatched euphoric energy. This is a great strain for when you just need some good vibes. The cannabis strain’s provocative name is actually a nod to its genetics. The Wet Dreams strain is a mixture of the ubiquitous cannabis hybrid strain Blue Dream and Ocean Beach Haze that hails from California. In this Wet Dream strain review, we will go into the mental effects that this strain is famous for then look into some of the medical benefits for medical cannabis patients.<br><br>The strain that’s named after the best kind of dream, a wet one. Wet Dream from San Diego California is a sativa dominant cross of Blue Dream x Ocean Beach Haze. This strain is designed for late-night enjoyment and arousal but is also great for daytime use and creative tasks. Wet Dream has an intoxicating aroma of lemongrass coupled with a soft woody pine flavor. Most Haze blends create rushing waves of euphoria, but the genetics of the Blue Dream in this cross help to mellow out some of those effects.<br><br>The Wet Dream Sativa strain is a well-known marijuana strain that gives smokers an incredible and unmatched euphoric energy. This is a great strain for when you just need some good vibes. The cannabis strain’s provocative name is actually a nod to its genetics. The Wet Dreams strain is a mixture of the ubiquitous cannabis hybrid strain Blue Dream and Ocean Beach Haze that hails from California. In this Wet Dream strain review, we will go into the mental effects that this strain is famous for then look into some of the medical benefits for medical cannabis patients....</p>
+                  </div>
+                </div>
+                <div class="gallery dfr">
+                  <h3>Photos</h3>
+                  <div class="add-file">
+                    <input id="add-file" type="file">
+                    <label for="add-file">+Add Photo</label>
+                  </div>
+                  <div class="gallery-items"><img src="img/kings-primary.jpg" alt=""><img src="img/kings-primary-2.jpg" alt=""><img src="img/kings-primary-3.jpg" alt=""><img src="img/kings-primary.jpg" alt=""><img src="img/kings-primary-2.jpg" alt=""><img src="img/kings-primary-3.jpg" alt=""><img src="img/kings-primary.jpg" alt=""><img src="img/kings-primary-2.jpg" alt=""></div><a class="view-more" href="#">View More</a>
+                </div>
+                <div class="comment_block">
+                  <div class="comment-respond" id="respond">
+                    <h3 class="comment-reply-title" id="reply-title">Leave Your Review<small><a id="cancel-comment-reply-link" rel="nofollow" href="#">Cancel reply</a></small></h3>
+                    <form class="comment-form" id="comment_form"><img class="avatar" src="img/user.jpg" alt="">
+                      <p class="comment-form-author">
+                        <label>Name</label>
+                        <input type="text">
+                      </p>
+                      <p class="comment-form-email">
+                        <label>Email</label>
+                        <input type="text">
+                      </p>
+                      <p class="comment-form-comment">
+                        <textarea id="comment" placeholder="Comment..."></textarea>
+                      </p>
+                      <p class="comment-form-cookies-consent">
+                        <input id="save" type="checkbox">
+                        <label for="save">Save my name, email, and website in this browser for the next time I comment.</label>
+                      </p>
+                      <p class="form-submit">
+                        <input class="submit" id="submit" type="submit" value="Submit">
+                      </p>
+                    </form>
+                  </div>
+                  <div class="review">
+                    <h2>Reviews<span>(321)</span></h2>
+                    <ul class="comments-list">
+                      <li class="comment even thread-even depth-1" id="li-comment-113">
+                        <div id="comment-113">
+                          <div class="comment_block">
+                            <div class="comment-author vcard"><img class="avatar" src="img/user.jpg" alt="#">
+                              <cite class="fn">Robin</cite><span class="says"></span><span class="time icon-clock">October 17, 2019 02:04 PM</span>
+                            </div>
+                            <div class="comment_text">
+                              <p>Where is the brownie recipe<br> You only gave how to make butter and oils</p>
+                            </div>
+                            <ul class="sympathy">
+                              <li><a class="icon-top" href="#">23</a></li>
+                              <li><a class="icon-bottom" href="#">151</a></li>
+                            </ul>
+                            <div class="reply"><a class="comment-reply-link" href="#">Reply</a></div>
+                            <div class="clear"></div>
+                          </div>
+                        </div>
+                        <ul class="children">
+                          <li class="comment odd alt depth-2" id="li-comment-114">
+                            <div id="comment-114">
+                              <div class="comment_block">
+                                <div class="comment-author vcard"><img class="avatar" src="img/no-img.svg" alt="#">
+                                  <cite class="fn">Scott Heron</cite><span class="says"></span><span class="time icon-clock">October 17, 2019 03:03 PM</span>
+                                  <div class="comment-meta commentmetadata"><a href="#"></a></div>
+                                </div>
+                                <div class="comment_text">
+                                  <p><strong>Hey Robin,</strong>Great question! The benefit of knowing how to make butter and oil, is that you can use these in any recipe to infuse them with cannabis. If you’d like to make cannabis-infused brownies, take your favourite brownie recipe and replace the regular butter with the cannabis infused butter.</p>
+                                </div>
+                                <ul class="sympathy">
+                                  <li><a class="icon-top" href="#">12</a></li>
+                                  <li><a class="icon-bottom" href="#">23</a></li>
+                                </ul>
+                                <div class="reply"><a class="comment-reply-link" href="#">Reply</a></div>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="comment odd alt depth-2" id="li-comment-114">
+                            <div id="comment-114">
+                              <div class="comment_block">
+                                <div class="comment-author vcard"><img class="avatar" src="img/user.jpg" alt="#">
+                                  <cite class="fn">Robin</cite><span class="says"></span><span class="time icon-clock">October 17, 2019 03:03 PM</span>
+                                  <div class="comment-meta commentmetadata"><a href="#"></a></div>
+                                </div>
+                                <div class="comment_text">
+                                  <p><strong>Hey Scott Heron,</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A iste nostrum minus voluptatum eveniet tempore facere temporibus dolore fuga magni eum, veritatis? Modi autem voluptatem doloremque, accusamus unde, accusantium quos maiores reprehenderit ab quas error, necessitatibus excepturi ipsam vel magni facilis, sed impedit assumenda. Natus molestias quaerat fuga blanditiis atque.</p>
+                                </div>
+                                <ul class="sympathy">
+                                  <li><a class="icon-top" href="#">12</a></li>
+                                  <li><a class="icon-bottom" href="#">23</a></li>
+                                </ul>
+                                <div class="reply"><a class="comment-reply-link" href="#">Reply</a></div>
+                                <div class="reply-comment"><img class="avatar" src="img/user.jpg" alt="#">
+                                  <div class="textarea">
+                                    <textarea placeholder="Comment"></textarea>
+                                  </div>
+                                  <button class="button" type="submit">Send</button>
+                                </div>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="comment even thread-even depth-1" id="li-comment-113">
+                        <div id="comment-113">
+                          <div class="comment_block">
+                            <div class="comment-author vcard"><img class="avatar" src="img/user.jpg" alt="#">
+                              <cite class="fn">Robin</cite><span class="says"></span><span class="time icon-clock">October 17, 2019 02:04 PM</span>
+                            </div>
+                            <div class="comment_text">
+                              <p>Where is the brownie recipe<br> You only gave how to make butter and oils</p>
+                            </div>
+                            <ul class="sympathy">
+                              <li><a class="icon-top" href="#">23</a></li>
+                              <li><a class="icon-bottom" href="#">151</a></li>
+                            </ul>
+                            <div class="reply"><a class="comment-reply-link" href="#">Reply</a></div>
+                            <div class="clear"></div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="sidebar">
+                <div class="block">
+                  <ul class="nav-tabs dfr">
+                    <li class="active"><a href="#effects" data-toggle="tab">Effects</a></li>
+                    <li><a href="#flavour" data-toggle="tab">Flavour</a></li>
+                    <li><a href="#negatives" data-toggle="tab">Negatives</a></li>
+                    <li><a href="#medical" data-toggle="tab">Medical</a></li>
+                  </ul>
+                  <div class="tab-content">
+                    <div class="tab-pane active" id="effects"><a class="item" href="#" style="color:#01a52a;"><i class="icon-chill"></i>
+                        <p>Chill</p></a><a class="item" href="#" style="color:#f3ce00;"><i class="icon-creative"></i>
+                        <p>Creative</p></a><a class="item" href="#" style="color:#ff7200;"><i class="icon-energized"></i>
+                        <p>Energized</p></a><a class="item" href="#" style="color:#00419a;"><i class="icon-focused"></i>
+                        <p>Focused</p></a><a class="item" href="#" style="color:#ed171f;"><i class="icon-higher"></i>
+                        <p>Higher</p></a><a class="item" href="#" style="color:#00bfff;"><i class="icon-relief"></i>
+                        <p>Relief</p></a><a class="item" href="#" style="color:#7a48e1;"><i class="icon-sleepy"></i>
+                        <p>Sleepy</p></a><a class="item" href="#" style="color:#f23cfd;"><i class="icon-turned-on"></i>
+                        <p>Turned ON</p></a></div>
+                    <div class="tab-pane" id="flavour"><a class="item" href="#" style="color:#337D95;"> <i class="icon-ammonia"></i>
+                        <p>Ammonia</p></a><a class="item" href="#" style="color:#B20800;"><i class="icon-apple"></i>
+                        <p>Apple</p></a><a class="item" href="#" style="color:#F9B88F;"><i class="icon-apricot"></i>
+                        <p>Apricot</p></a><a class="item" href="#" style="color:#e15757;"><i class="icon-berry"></i>
+                        <p>Berry</p></a><a class="item" href="#" style="color:#204D42;"><i class="icon-blue-cheese"></i>
+                        <p>Blue cheese</p></a><a class="item" href="#" style="color:#163869;"><i class="icon-blueberry"></i>
+                        <p>Blueberry</p></a><a class="item" href="#" style="color:#FFDD37;"><i class="icon-butter"></i>
+                        <p>Butter</p></a><a class="item" href="#" style="color:#F6D48A;"><i class="icon-cheese"></i>
+                        <p>Cheese</p></a><a class="item" href="#" style="color:#00F253;"><i class="icon-chemical"></i>
+                        <p>Chemical</p></a><a class="item" href="#" style="color:#FC5123;"><i class="icon-chestnut"></i>
+                        <p>Chestnut</p></a><a class="item" href="#" style="color:#A25520;"><i class="icon-citrus"></i>
+                        <p>Citrus</p></a><a class="item" href="#" style="color:#431F08;"><i class="icon-coffee"></i>
+                        <p>Coffee</p></a><a class="item" href="#" style="color:#A1EC50;"><i class="icon-diesel"></i>
+                        <p>Diesel</p></a><a class="item" href="#" style="color:#4C9600;"><i class="icon-earthy"></i>
+                        <p>Earthy</p></a><a class="item" href="#" style="color:#F8BBD6;"><i class="icon-flowery"></i>
+                        <p>Flowery</p></a><a class="item" href="#" style="color:#9354C5;"><i class="icon-grape"></i>
+                        <p>Grape</p></a><a class="item" href="#" style="color:#EE403D;"><i class="icon-grapefruit"></i>
+                        <p>Grapefruit</p></a><a class="item" href="#" style="color:#F69D16;"><i class="icon-honey"></i>
+                        <p>Honey</p></a><a class="item" href="#" style="color:#ABA2E0;"><i class="icon-lavender"></i>
+                        <p>Lavender</p></a><a class="item" href="#" style="color:#FDE616;"><i class="icon-lemon"></i>
+                        <p>Lemon</p></a><a class="item" href="#" style="color:#C7DB5D;"><i class="icon-lime"></i>
+                        <p>Lime</p></a><a class="item" href="#" style="color:#FFB523;"><i class="icon-mango"></i>
+                        <p>Mango</p></a><a class="item" href="#" style="color:#5DBC81;"><i class="icon-menthol"></i>
+                        <p>Menthol</p></a><a class="item" href="#" style="color:#52986F;"><i class="icon-mint"></i>
+                        <p>Mint</p></a><a class="item" href="#" style="color:#CA7933;"><i class="icon-nutty"></i>
+                        <p>Nutty</p></a><a class="item" href="#" style="color:#F48120;"><i class="icon-orange"></i>
+                        <p>Orange</p></a><a class="item" href="#" style="color:#FFA582;"><i class="icon-peach"></i>
+                        <p>Peach</p></a><a class="item" href="#" style="color:#E3E600;"><i class="icon-pear"></i>
+                        <p>Pear</p></a><a class="item" href="#" style="color:#6B463A;"><i class="icon-pepper"></i>
+                        <p>Pepper</p></a><a class="item" href="#" style="color:#677A4B;"><i class="icon-pine"></i>
+                        <p>Pine</p></a><a class="item" href="#" style="color:#D16800;"><i class="icon-pineapple"></i>
+                        <p>Pineapple</p></a><a class="item" href="#" style="color:#733266;"><i class="icon-plum"></i>
+                        <p>Plum</p></a><a class="item" href="#" style="color:#B3C646;"><i class="icon-pungent"></i>
+                        <p>Pungent</p></a><a class="item" href="#" style="color:#C91543;"><i class="icon-rose"></i>
+                        <p>Rose</p></a><a class="item" href="#" style="color:#8DAA7E;"><i class="icon-sage"></i>
+                        <p>Sage</p></a><a class="item" href="#" style="color:#C8C900;"><i class="icon-skunk"></i>
+                        <p>Skunk</p></a><a class="item" href="#" style="color:#DA0000;"><i class="icon-spicy"></i>
+                        <p>Spicy </p></a><a class="item" href="#" style="color:#FF0000;"><i class="icon-strawberry"></i>
+                        <p>Strawberry</p></a><a class="item" href="#" style="color:#EB4B6E;"><i class="icon-sweet"></i>
+                        <p>Sweet</p></a><a class="item" href="#" style="color:#000000;"><i class="icon-tar"></i>
+                        <p>Tar</p></a><a class="item" href="#" style="color:#E0B464;"><i class="icon-tea"></i>
+                        <p>Tea</p></a><a class="item" href="#" style="color:#72190F;"><i class="icon-tobacco"></i>
+                        <p>Tobacco</p></a><a class="item" href="#" style="color:#f23cfd;"><i class="icon-tree-fruit"></i>
+                        <p>Tree Fruit</p></a><a class="item" href="#" style="color:#FF2347;"><i class="icon-tropical"></i>
+                        <p>Tropical</p></a><a class="item" href="#" style="color:#FFBC8A;"><i class="icon-vanilla"></i>
+                        <p>Vanilla</p></a><a class="item" href="#" style="color:#62052D;"><i class="icon-violet"></i>
+                        <p>Violet</p></a><a class="item" href="#" style="color:#885729;"><i class="icon-woody"></i>
+                        <p>Woody</p></a></div>
+                    <div class="tab-pane" id="negatives"> <a class="item" href="#"><i class="icon-anxious"></i>
+                        <p>Anxious</p></a><a class="item" href="#"><i class="icon-dizzy"></i>
+                        <p>Dizzy</p></a><a class="item" href="#"><i class="icon-dry-eyes"></i>
+                        <p>Dry Eyes</p></a><a class="item" href="#"><i class="icon-dry-mouth"></i>
+                        <p>Dry Mouth</p></a><a class="item" href="#"><i class="icon-paranoid"></i>
+                        <p>Paranoid</p></a><a class="item" href="#"><i class="icon-cramps"></i>
+                        <p>Cramps</p></a><a class="item" href="#"><i class="icon-spasticity"></i>
+                        <p>Spasticity</p></a><a class="item" href="#"><i class="icon-siezures"></i>
+                        <p>Siezures </p></a><a class="item" href="#"><i class="icon-fatigue"></i>
+                        <p>Fatigue</p></a><a class="item" href="#"><i class="icon-eye-pressure"></i>
+                        <p>Eye Pressure</p></a><a class="item" href="#"><i class="icon-nausea"></i>
+                        <p>Nausea</p></a><a class="item" href="#"><i class="icon-stress"></i>
+                        <p>Stress</p></a><a class="item" href="#"><i class="icon-body-pain"></i>
+                        <p>Body Pain</p></a><a class="item" href="#"><i class="icon-paranoid"></i>
+                        <p>Paranoid</p></a><a class="item" href="#"><i class="icon-depression"></i>
+                        <p>Deppression</p></a><a class="item" href="#"><i class="icon-headaches"></i>
+                        <p>Headaches</p></a><a class="item" href="#"><i class="icon-inflamation"></i>
+                        <p>Inflamation</p></a><a class="item" href="#"><i class="icon-insomnia"></i>
+                        <p>Insomnia</p></a><a class="item" href="#"><i class="icon-lack-of-appitite"></i>
+                        <p>Lack of Appitite</p></a><a class="item" href="#"><i class="icon-muscle-spasms"></i>
+                        <p>Muscle Spasms</p></a></div>
+                    <div class="tab-pane" id="medical"><a class="item" href="#"><i class="icon-anxious"></i>
+                        <p>Anxious</p></a><a class="item" href="#"><i class="icon-dizzy"></i>
+                        <p>Dizzy</p></a><a class="item" href="#"><i class="icon-dry-eyes"></i>
+                        <p>Dry Eyes</p></a><a class="item" href="#"><i class="icon-dry-mouth"></i>
+                        <p>Dry Mouth</p></a><a class="item" href="#"><i class="icon-paranoid"></i>
+                        <p>Paranoid</p></a><a class="item" href="#"><i class="icon-cramps"></i>
+                        <p>Cramps</p></a><a class="item" href="#"><i class="icon-spasticity"></i>
+                        <p>Spasticity</p></a><a class="item" href="#"><i class="icon-siezures"></i>
+                        <p>Siezures </p></a><a class="item" href="#"><i class="icon-fatigue"></i>
+                        <p>Fatigue</p></a><a class="item" href="#"><i class="icon-eye-pressure"></i>
+                        <p>Eye Pressure</p></a><a class="item" href="#"><i class="icon-nausea"></i>
+                        <p>Nausea</p></a><a class="item" href="#"><i class="icon-stress"></i>
+                        <p>Stress</p></a><a class="item" href="#"><i class="icon-body-pain"></i>
+                        <p>Body Pain</p></a><a class="item" href="#"><i class="icon-paranoid"></i>
+                        <p>Paranoid</p></a><a class="item" href="#"><i class="icon-depression"></i>
+                        <p>Deppression</p></a><a class="item" href="#"><i class="icon-headaches"></i>
+                        <p>Headaches</p></a><a class="item" href="#"><i class="icon-inflamation"></i>
+                        <p>Inflamation</p></a><a class="item" href="#"><i class="icon-insomnia"></i>
+                        <p>Insomnia</p></a><a class="item" href="#"><i class="icon-lack-of-appitite"></i>
+                        <p>Lack of Appitite</p></a><a class="item" href="#"><i class="icon-muscle-spasms"></i>
+                        <p>Muscle Spasms </p></a></div>
+                  </div>
+                </div>
+                <div class="block"><img src="img/map-search.svg" alt="#">
+                  <h4>Find Where to Buy <span>Alaskin <br>Thunderfuck (Extra Large) </span>Near Me</h4>
+                </div>
+                <div class="block">
+                  <h3>sdf</h3>
+                  <div class="items dfr"><a class="item" href="#" style="color:#7A48E1;"><i class="icon-indica"> </i>
+                      <p>Indica Strains</p></a><a class="item" href="#" style="color:#FF7200;"><i class="icon-hybrid"></i>
+                      <p>Hybrid Strains</p></a><a class="item" href="#" style="color:#01A52A;"><i class="icon-sativa"></i>
+                      <p>Sativa Strains</p></a></div><a href="#">See Full List of Strains</a>
+                </div>
+                <div class="block"><img src="img/cannabis.svg" alt="#">
+                  <h3>Explore Strains</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="strains">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <h3>Similar items </h3>
+              <div class="strains-items dfr">
+                <div class="strains-item" style="color:#7A48E1;"><a class="link" href="#"></a>
+                  <p class="type" style="background-color:#7A48E1;">Indica</p><img src="img/kings-primary.jpg" alt="">
+                  <h3>Alaskin Thunderfuck (Extra Large)</h3>
+                  <div class="rating dfr">
+                    <ul class="dfr" data-rating="4">
+                      <li class="icon-star"></li>
+                      <li class="icon-star"></li>
+                      <li class="icon-star"></li>
+                      <li class="icon-star"></li>
+                      <li class="icon-star"></li>
+                    </ul>
+                    <p>(131 reviews)</p>
+                  </div>
+                  <ul class="meta dfr">
+                    <li class="icon-pictures">123</li>
+                    <li class="icon-views">11,523</li>
+                  </ul>
+                </div>
+                <div class="strains-item" style="color:#7A48E1;"><a class="link" href="#"></a>
+                  <p class="type" style="background-color:#7A48E1;">Indica</p><img src="img/kings-primary-2.jpg" alt="">
+                  <h3>Alaskin Thunderfuck (Extra Large)</h3>
+                  <div class="rating dfr">
+                    <ul class="dfr" data-rating="4">
+                      <li class="icon-star"></li>
+                      <li class="icon-star"></li>
+                      <li class="icon-star"></li>
+                      <li class="icon-star"></li>
+                      <li class="icon-star"></li>
+                    </ul>
+                    <p>(131 reviews)</p>
+                  </div>
+                  <ul class="meta dfr">
+                    <li class="icon-pictures">123</li>
+                    <li class="icon-views">11,523</li>
+                  </ul>
+                </div>
+                <div class="strains-item" style="color:#7A48E1;"><a class="link" href="#"></a>
+                  <p class="type" style="background-color:#7A48E1;">Indica</p><img src="img/kings-primary-3.jpg" alt="">
+                  <h3>Alaskin Thunderfuck (Extra Large)</h3>
+                  <div class="rating dfr">
+                    <ul class="dfr" data-rating="4">
+                      <li class="icon-star"></li>
+                      <li class="icon-star"></li>
+                      <li class="icon-star"></li>
+                      <li class="icon-star"> </li>
+                      <li class="icon-star"></li>
+                    </ul>
+                    <p>(131 reviews)</p>
+                  </div>
+                  <ul class="meta dfr">
+                    <li class="icon-pictures">123</li>
+                    <li class="icon-views">11,523</li>
+                  </ul>
+                </div>
+                <div class="strains-item more" style="color:#7A48E1;"><a class="link" href="#"></a><i class="icon-indica"></i>
+                  <h3>More Indica Strains </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-block">
+        <div class="footer-top">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 dfr">
+                <div class="menu-block">
+                  <h4>Publication Sections</h4>
+                  <ul class="menu dfr">
+                    <li><a href="#">Legalization</a></li>
+                    <li><a href="#">DIY</a></li>
+                    <li><a href="#">Cannabasics</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">LifeSTYLE</a></li>
+                    <li><a href="#">Encycloweedia</a></li>
+                    <li><a href="#">People</a></li>
+                    <li><a href="#">Stuff</a></li>
+                    <li><a href="#">Strains</a></li>
+                    <li><a href="#">Medicine</a></li>
+                    <li><a href="#">Pot culture</a></li>
+                    <li><a href="#">Dispensaries</a></li>
+                    <li><a href="#">Politics</a></li>
+                  </ul>
+                </div>
+                <div class="menu-block">
+                  <h4>About</h4>
+                  <ul class="menu">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Advertise</a></li>
+                  </ul>
+                </div>
+                <div class="menu-block">
+                  <ul class="soc dfr">
+                    <li><a class="icon-facebook" href="#"></a></li>
+                    <li><a class="icon-twitter" href="#"></a></li>
+                    <li><a class="icon-instagram" href="#"></a></li>
+                  </ul>
+                </div>
+                <p>The information provided here is not intended to diagnose, treat or prescribe for any health condition and should not be considered a substitute for professional medical advice/treatment for medical conditions. Always seek the advice of a qualified health care provider regarding any medical condition. Never disregard medical advice or delay seeking it due to something you have read on CannCentral.com. To ensure the information recommended here meets your health requirements you should seek the advice of a qualified health care provider. CannCentral.com and the distinctive CannCentral™ wordmark and cannabis leaf logos are trademarks of CannCentral.com, 2020.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 dfr">
+                <p class="copyright">Copyright © 2021 HighBurg</p>
+                <ul class="menu dfr">
+                  <li><a href="#">Legal Disclaimer</a></li>
+                  <li><a href="#">Terms of Use</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/build.js"></script>
+  </body>
+</html>

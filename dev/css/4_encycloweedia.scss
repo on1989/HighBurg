@@ -1,0 +1,210 @@
+.glossary-container {
+	max-width: 880px;
+	width: 100%;
+	margin: 0;
+	padding: 40px 0;
+}
+#glossary-categories,
+.select-styled {
+	height: 48px;
+	padding: 0 25px 0 15px;
+	background-image: url(../icons/arrow-bottom.svg);
+	background-size: 12px;
+	background-repeat: no-repeat;
+	background-position: 93% 52%;
+	background-color: transparent;
+	border: 1px solid transparent;
+	border-bottom-color: #dedede;
+}
+[data-letter="0-9"]{
+	.letter{
+		display: none !important;
+	}
+}
+#glossary-categories {
+	-ms-flex-order: -1;
+	order: -1;
+	margin-right: 15px !important;
+	-webkit-user-select: none;
+	-moz-user-select: -moz-none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-appearance: none;
+	-moz-appearance: radio-container;
+	appearance: none;
+	width: 194px;
+}
+.glossary_top_filter .left {
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.glossary_top_filter .left .button {
+	margin: 0;
+	background: #8cc153;
+	width: 177px;
+	height: 48px;
+	border-radius: 0;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.glossary_top_filter .left .button:hover {
+	background: #6a9441
+}
+
+.glossary_top_filter .left .glossary-search-clear,
+.glossary_top_filter .left .glossary-search-label,
+.glossary_top_filter .left div.cmtt_help {
+	display: none
+}
+
+.glossary_top_filter .left #glossary-search-term {
+	width: calc(100% - 402px);
+	margin-right: 15px;
+	height: 48px;
+	padding: 0 15px;
+	border: 1px solid transparent;
+	border-bottom-color: #dedede;
+	box-shadow: none;
+	border-radius: 0;
+	background-color: transparent;
+}
+#glossaryList-nav {
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-bottom: 40px;
+	margin-top: 30px;
+
+	a {
+		background-color: transparent !important;
+		color: #464646;
+		transition: all .3s ease;
+		font-size: 28px;
+		text-transform: uppercase;
+		font-weight: 600;
+		font-family: arial;
+		border: none;
+		cursor: pointer;
+		padding: 0 7px 0 0 !important;
+		line-height: 1.2;
+		&.ln-selected {
+			color: #8cc153;
+		}
+		&.ln-_ {
+			display: none;
+		}
+		&.ln-disabled {
+			color: #7f7f7f;
+			pointer-events: none;
+		}
+	}
+}
+
+#glossaryList {
+	font-size: 18px;
+	color: #000;
+	a:hover {
+		color: #8cc153 !important;
+	}
+	li {
+		> li {
+			width: 100%;
+			display: -ms-inline-flexbox;
+			display: inline-flex;
+			padding-right: 15px;
+		}
+		&.letter {
+			margin-top: 30px;
+			border-top: 1px solid #000;
+			padding-top: 30px;
+			columns: 2;
+			position: relative;
+			.children a {
+				font-size: 20px;
+			}
+			&:before {
+				content: attr(data-letter);
+				font-size: 36px;
+				font-weight: 600;
+				text-transform: uppercase;
+				position: absolute;
+				color: #000;
+				left: 0;
+				background: #f7f8f8;
+				top: 0;
+				padding: 0 5px;
+				transform: translateY(-50%);
+			}
+		}
+	}
+	a {
+		display: table;
+		color: #333;
+		font-family: arial;
+		transition: all .3s ease;
+		line-height: 40px;
+		border-bottom: none !important;
+		&:visited {
+			color: #333 !important;
+		}
+	}
+}
+
+div.cmtt_related_title {
+	margin-bottom: 10px !important;
+}
+.back-to-top {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: auto !important;
+	background: #f7f8f8;
+	font-size: 16px;
+	transform: translateY(-50%);
+	a {
+		&:after {
+			right: 2px;
+			transform: rotate(45deg) translate(-2px);
+		}
+		&:before {
+			transform: rotate(45deg) translateY(-50%);
+			left: 2px;
+		}
+		font-size: 11px;
+		color: #333;
+		position: relative;
+		padding: 0 12px 0 15px;
+		&:after,
+		&:before {
+			content: "";
+			border-left: 1px solid #333;
+			border-top: 1px solid #333;
+			width: 5px;
+			height: 5px;
+			position: absolute;
+			top: 50%;
+		}
+	}
+}

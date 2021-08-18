@@ -1,0 +1,45 @@
+section
+	.ugc
+		.container
+			.row
+				.col-lg-3.col-md-12.col-sm-12.col-xs-12
+					include left-sidebar-ugc
+				.col-lg-6.col-md-12.col-sm-12.col-xs-12
+					form
+						h3 Add New Post
+						.select
+							select
+								option(value="") Select Category
+								option(value="") Select Category 2
+								option(value="") Select Category 3
+						.select
+							select
+								option(value="#" selected) Select Type
+								option(value="type-hybrid") Hybrid
+								option(value="type-indica") Indica
+								option(value="type-sativa") Sativa
+						.add-tag
+							label(for='add-tag') Tags
+							input#add-tag(type='text')
+						.input
+							label Article Name
+							input(type="text")
+						.textarea
+							label Write Your Content Here
+							textarea
+						.textarea
+							label Exerpt...
+							textarea
+						.add-file
+							input#add-file(type="file")
+							label.icon-plus(for="add-file") Featured Image
+							p Prefered image size 800x450.jpg with less than 3mb weight*
+						.buttons
+							input.button(type="submit" value="Publish")
+							a.button(href="#") Back
+						.alert
+							p Quick Tip Color Changes...
+							p.success Prefered image size 800x450.jpg with less than 3mb weight*
+								span ...If ok
+							p.danger Prefered image size 800x450.jpg with less than 3mb weight*
+								span ...If not ok

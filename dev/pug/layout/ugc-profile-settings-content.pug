@@ -1,0 +1,34 @@
+section
+	.ugc
+		.container
+			.row
+				.col-lg-3.col-md-12.col-sm-12.col-xs-12
+					include left-sidebar-ugc
+				.col-lg-6.col-md-12.col-sm-12.col-xs-12
+					form
+						h3 Account Settings
+						.add-file
+							input#add-file(type="file")
+							label.icon-plus(for="add-file") Profile Photo
+						.input
+							label User Name
+							input(type="text")
+						.input
+							label Last Name
+							input(type="text")
+						.input
+							label First Name
+							input(type="text")
+						.input
+							label Location
+							input(type="text")
+						.datepicker-input
+							input(type="text" placeholder="Date Of Birth (MM/DD/YYYY)")
+						.textarea
+							label About Me
+							textarea
+						.input
+							input.button(type="submit" value="Save Changes")
+
+				.col-lg-3.col-md-12.col-sm-12.col-xs-12
+					include right-sidebar-ugc

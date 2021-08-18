@@ -1,0 +1,430 @@
+/**
+custom-icons Webfont
+*/
+
+@font-face {
+    font-family: 'custom-icons';
+    src: url('../fonts/custom-icons.eot?1620646247902');
+    src: url('../fonts/custom-icons.eot?#iefix-1620646247902') format('embedded-opentype'), url('../fonts/custom-icons.woff2?1620646247902') format('woff2'), url('../fonts/custom-icons.woff?1620646247902') format('woff'), url('../fonts/custom-icons.ttf?1620646247902') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^='icon-']:before,
+[class*='icon-']:before {
+    font-family: 'custom-icons';
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+    font-weight: normal;
+    font-style: normal;
+    speak: none;
+    text-decoration: inherit;
+    font-size: inherit;
+    text-transform: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+/*
+Glyphs list
+*/
+
+.icon-activity:before {
+        content: '\ea01';
+    }
+    .icon-ammonia:before {
+        content: '\ea02';
+    }
+    .icon-anxious:before {
+        content: '\ea03';
+    }
+    .icon-apple:before {
+        content: '\ea04';
+    }
+    .icon-apricot:before {
+        content: '\ea05';
+    }
+    .icon-arrow-left:before {
+        content: '\ea06';
+    }
+    .icon-arrow-right:before {
+        content: '\ea07';
+    }
+    .icon-articles:before {
+        content: '\ea08';
+    }
+    .icon-berry:before {
+        content: '\ea09';
+    }
+    .icon-blue-cheese:before {
+        content: '\ea0a';
+    }
+    .icon-blueberry:before {
+        content: '\ea0b';
+    }
+    .icon-body-pain:before {
+        content: '\ea0c';
+    }
+    .icon-bottom:before {
+        content: '\ea0d';
+    }
+    .icon-butter:before {
+        content: '\ea0e';
+    }
+    .icon-check-mark:before {
+        content: '\ea0f';
+    }
+    .icon-cheese:before {
+        content: '\ea10';
+    }
+    .icon-chemical:before {
+        content: '\ea11';
+    }
+    .icon-chestnut:before {
+        content: '\ea12';
+    }
+    .icon-chill:before {
+        content: '\ea13';
+    }
+    .icon-citrus:before {
+        content: '\ea14';
+    }
+    .icon-clock:before {
+        content: '\ea15';
+    }
+    .icon-close:before {
+        content: '\ea16';
+    }
+    .icon-coffee:before {
+        content: '\ea17';
+    }
+    .icon-cramps:before {
+        content: '\ea18';
+    }
+    .icon-creative:before {
+        content: '\ea19';
+    }
+    .icon-depression:before {
+        content: '\ea1a';
+    }
+    .icon-diesel:before {
+        content: '\ea1b';
+    }
+    .icon-dispensaries:before {
+        content: '\ea1c';
+    }
+    .icon-dizzy:before {
+        content: '\ea1d';
+    }
+    .icon-doctors:before {
+        content: '\ea1e';
+    }
+    .icon-down:before {
+        content: '\ea1f';
+    }
+    .icon-dry-eyes:before {
+        content: '\ea20';
+    }
+    .icon-dry-mouth:before {
+        content: '\ea21';
+    }
+    .icon-earthy:before {
+        content: '\ea22';
+    }
+    .icon-encycloweedia:before {
+        content: '\ea23';
+    }
+    .icon-energized:before {
+        content: '\ea24';
+    }
+    .icon-events:before {
+        content: '\ea25';
+    }
+    .icon-exit:before {
+        content: '\ea26';
+    }
+    .icon-eye-pressure:before {
+        content: '\ea27';
+    }
+    .icon-eye:before {
+        content: '\ea28';
+    }
+    .icon-facebook:before {
+        content: '\ea29';
+    }
+    .icon-fatigue:before {
+        content: '\ea2a';
+    }
+    .icon-filters:before {
+        content: '\ea2b';
+    }
+    .icon-flowery:before {
+        content: '\ea2c';
+    }
+    .icon-focused:before {
+        content: '\ea2d';
+    }
+    .icon-grape:before {
+        content: '\ea2e';
+    }
+    .icon-grapefruit:before {
+        content: '\ea2f';
+    }
+    .icon-headaches:before {
+        content: '\ea30';
+    }
+    .icon-higher:before {
+        content: '\ea31';
+    }
+    .icon-home:before {
+        content: '\ea32';
+    }
+    .icon-honey:before {
+        content: '\ea33';
+    }
+    .icon-hourglass:before {
+        content: '\ea34';
+    }
+    .icon-hybrid:before {
+        content: '\ea35';
+    }
+    .icon-indica:before {
+        content: '\ea36';
+    }
+    .icon-inflammation:before {
+        content: '\ea37';
+    }
+    .icon-info:before {
+        content: '\ea38';
+    }
+    .icon-insomnia:before {
+        content: '\ea39';
+    }
+    .icon-instagram:before {
+        content: '\ea3a';
+    }
+    .icon-lack-of-appetite:before {
+        content: '\ea3b';
+    }
+    .icon-lavender:before {
+        content: '\ea3c';
+    }
+    .icon-left:before {
+        content: '\ea3d';
+    }
+    .icon-lemon:before {
+        content: '\ea3e';
+    }
+    .icon-lime:before {
+        content: '\ea3f';
+    }
+    .icon-link:before {
+        content: '\ea40';
+    }
+    .icon-linkedin:before {
+        content: '\ea41';
+    }
+    .icon-lock:before {
+        content: '\ea42';
+    }
+    .icon-mail:before {
+        content: '\ea43';
+    }
+    .icon-mango:before {
+        content: '\ea44';
+    }
+    .icon-marker:before {
+        content: '\ea45';
+    }
+    .icon-megaphone:before {
+        content: '\ea46';
+    }
+    .icon-menthol:before {
+        content: '\ea47';
+    }
+    .icon-mint:before {
+        content: '\ea48';
+    }
+    .icon-moderator:before {
+        content: '\ea49';
+    }
+    .icon-moon:before {
+        content: '\ea4a';
+    }
+    .icon-muscle-spasms:before {
+        content: '\ea4b';
+    }
+    .icon-nausea:before {
+        content: '\ea4c';
+    }
+    .icon-newbie:before {
+        content: '\ea4d';
+    }
+    .icon-nutty:before {
+        content: '\ea4e';
+    }
+    .icon-orange:before {
+        content: '\ea4f';
+    }
+    .icon-paranoid:before {
+        content: '\ea50';
+    }
+    .icon-peach:before {
+        content: '\ea51';
+    }
+    .icon-pear:before {
+        content: '\ea52';
+    }
+    .icon-pepper:before {
+        content: '\ea53';
+    }
+    .icon-personal-stats:before {
+        content: '\ea54';
+    }
+    .icon-phone:before {
+        content: '\ea55';
+    }
+    .icon-pictures:before {
+        content: '\ea56';
+    }
+    .icon-pine:before {
+        content: '\ea57';
+    }
+    .icon-pineapple:before {
+        content: '\ea58';
+    }
+    .icon-planet:before {
+        content: '\ea59';
+    }
+    .icon-plum:before {
+        content: '\ea5a';
+    }
+    .icon-plus:before {
+        content: '\ea5b';
+    }
+    .icon-pungent:before {
+        content: '\ea5c';
+    }
+    .icon-relief:before {
+        content: '\ea5d';
+    }
+    .icon-reviews:before {
+        content: '\ea5e';
+    }
+    .icon-rewards:before {
+        content: '\ea5f';
+    }
+    .icon-right:before {
+        content: '\ea60';
+    }
+    .icon-rookie:before {
+        content: '\ea61';
+    }
+    .icon-rose:before {
+        content: '\ea62';
+    }
+    .icon-sage:before {
+        content: '\ea63';
+    }
+    .icon-sativa:before {
+        content: '\ea64';
+    }
+    .icon-scissors:before {
+        content: '\ea65';
+    }
+    .icon-search:before {
+        content: '\ea66';
+    }
+    .icon-seizures:before {
+        content: '\ea67';
+    }
+    .icon-settings:before {
+        content: '\ea68';
+    }
+    .icon-share:before {
+        content: '\ea69';
+    }
+    .icon-skunk:before {
+        content: '\ea6a';
+    }
+    .icon-sleepy:before {
+        content: '\ea6b';
+    }
+    .icon-spasticity:before {
+        content: '\ea6c';
+    }
+    .icon-spicy-herbal:before {
+        content: '\ea6d';
+    }
+    .icon-star:before {
+        content: '\ea6e';
+    }
+    .icon-strains:before {
+        content: '\ea6f';
+    }
+    .icon-strawberry:before {
+        content: '\ea70';
+    }
+    .icon-stress:before {
+        content: '\ea71';
+    }
+    .icon-subcat:before {
+        content: '\ea72';
+    }
+    .icon-sun:before {
+        content: '\ea73';
+    }
+    .icon-sweet:before {
+        content: '\ea74';
+    }
+    .icon-tag:before {
+        content: '\ea75';
+    }
+    .icon-tar:before {
+        content: '\ea76';
+    }
+    .icon-tea:before {
+        content: '\ea77';
+    }
+    .icon-tobacco:before {
+        content: '\ea78';
+    }
+    .icon-top:before {
+        content: '\ea79';
+    }
+    .icon-tree-fruit:before {
+        content: '\ea7a';
+    }
+    .icon-tropical:before {
+        content: '\ea7b';
+    }
+    .icon-turned-on:before {
+        content: '\ea7c';
+    }
+    .icon-twitter:before {
+        content: '\ea7d';
+    }
+    .icon-up:before {
+        content: '\ea7e';
+    }
+    .icon-user:before {
+        content: '\ea7f';
+    }
+    .icon-vanilla:before {
+        content: '\ea80';
+    }
+    .icon-verified:before {
+        content: '\ea81';
+    }
+    .icon-views:before {
+        content: '\ea82';
+    }
+    .icon-violet:before {
+        content: '\ea83';
+    }
+    .icon-woody:before {
+        content: '\ea84';
+    }

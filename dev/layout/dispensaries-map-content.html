@@ -1,0 +1,294 @@
+
+<section class="jwa-map-list">
+  <div class="dispensaries">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <form class="filters dfr">
+            <div class="search">
+              <input type="search" placeholder="Canada Edmonton"/>
+              <button class="icon-search"></button>
+            </div>
+            <div class="checkbox-button">
+              <input id="doctors-button" type="checkbox"/>
+              <label class="icon-doctors" for="doctors-button">Doctors</label>
+            </div>
+            <div class="checkbox-button">
+              <input id="dispensaries-button" type="checkbox"/>
+              <label class="icon-plus" for="dispensaries-button">Dispensaries</label>
+            </div>
+            <div class="checkbox-button">
+              <input id="order-online-button" type="checkbox"/>
+              <label for="order-online-button">Order Online</label>
+            </div>
+            <div class="checkbox-button">
+              <input id="open-now-button" type="checkbox"/>
+              <label for="open-now-button">Open Now</label>
+            </div>
+            <div class="checkbox-button">
+              <input id="photos-button" type="checkbox"/>
+              <label for="photos-button">Photos</label>
+            </div>
+            <div class="select">
+              <p class="icon-filters">Filters</p>
+              <ul class="select-options">
+                <li>
+                  <div class="checkbox">
+                    <input id="doctors" type="checkbox"/>
+                    <label class="icon-check-mark" for="doctors">Doctors</label>
+                  </div>
+                </li>
+                <li>
+                  <div class="checkbox">
+                    <input id="dispensaries" type="checkbox"/>
+                    <label class="icon-check-mark" for="dispensaries">Dispensaries</label>
+                  </div>
+                </li>
+                <li>
+                  <div class="checkbox">
+                    <input id="delivery" type="checkbox"/>
+                    <label class="icon-check-mark" for="delivery">Delivery</label>
+                  </div>
+                </li>
+                <li>
+                  <div class="checkbox">
+                    <input id="mail-order" type="checkbox"/>
+                    <label class="icon-check-mark" for="mail-order">Mail Order</label>
+                  </div>
+                </li>
+                <li>
+                  <div class="checkbox">
+                    <input id="order-online" type="checkbox"/>
+                    <label class="icon-check-mark" for="order-online">Order Online</label>
+                  </div>
+                </li>
+                <li>
+                  <div class="checkbox">
+                    <input id="open-now" type="checkbox"/>
+                    <label class="icon-check-mark" for="open-now">Open Now</label>
+                  </div>
+                </li>
+                <li>
+                  <div class="checkbox">
+                    <input id="photos" type="checkbox"/>
+                    <label class="icon-check-mark" for="photos">Photos</label>
+                  </div>
+                </li>
+              </ul>
+              <div class="select-options mobile">
+                <ul class="nav-tabs dfr">
+                  <li class="active"><a href="#filters" data-toggle="tab">Filters</a></li>
+                  <li><a href="#sort" data-toggle="tab">Sort</a></li>
+                </ul>
+                <div class="tab-content">
+                  <div class="tab-pane active" id="filters">
+                    <div class="checkbox icon-doctors">
+                      <input id="doctors-mob" type="checkbox"/>
+                      <label for="doctors-mob">Doctors</label>
+                    </div>
+                    <div class="checkbox icon-plus">
+                      <input id="dispensaries-mob" type="checkbox"/>
+                      <label for="dispensaries-mob">Dispensaries</label>
+                    </div>
+                    <div class="checkbox">
+                      <input id="delivery-mob" type="checkbox"/>
+                      <label for="delivery-mob">Delivery</label>
+                    </div>
+                    <div class="checkbox">
+                      <input id="mail-order-mob" type="checkbox"/>
+                      <label for="mail-order-mob">Mail Order</label>
+                    </div>
+                    <div class="checkbox">
+                      <input id="order-online-mob" type="checkbox"/>
+                      <label for="order-online-mob">Order Online</label>
+                    </div>
+                    <div class="checkbox">
+                      <input id="open-now-mob" type="checkbox"/>
+                      <label for="open-now-mob">Open Now</label>
+                    </div>
+                    <div class="checkbox">
+                      <input id="photos-mob" type="checkbox"/>
+                      <label for="photos-mob">Photos</label>
+                    </div>
+                  </div>
+                  <div class="tab-pane" id="sort">
+                    <div class="radio-button">
+                      <input id="popular" type="radio" name="sort"/>
+                      <label for="popular">By Popular</label>
+                    </div>
+                    <div class="radio-button">
+                      <input id="rating" type="radio" name="sort"/>
+                      <label for="rating">By Rating</label>
+                    </div>
+                    <div class="radio-button">
+                      <input id="a-z" type="radio" name="sort"/>
+                      <label for="a-z">Name A-Z</label>
+                    </div>
+                    <div class="radio-button">
+                      <input id="z-a" type="radio" name="sort"/>
+                      <label for="z-a">Name Z-A</label>
+                    </div>
+                  </div>
+                </div>
+                <input class="button" type="submit" value="Apply Filters"/>
+              </div>
+            </div>
+          </form>
+          <div class="map-block">
+            <div id="map" data-lat="43.646593" data-lng="-79.434627"></div>
+            <div class="results">
+              <div class="results-block">
+                <div class="results-head dfr">
+                  <p>Showing Results 1-100</p>
+                  <div class="sort-filter"><a class="icon-up" href="#">By Rating</a>
+                    <ul>
+                      <li><a href="#">By Popular</a></li>
+                      <li><a href="#">By Rating</a></li>
+                      <li><a href="#">Name A-Z</a></li>
+                      <li><a href="#">Name Z-A</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="results-body">
+                  <div class="item dfr" data-lat="43.646593" data-lng="-79.434627" data-type="doctors-marker"><img src="img/no-image.jpg" alt=""/>
+                    <div class="description">
+                      <h3>Central Cannabis</h3>
+                      <p class="address">1255 Bay Street, Unit #702 Toronto, Ontario</p>
+                      <div class="rating dfr">
+                        <ul class="dfr" data-rating="4">
+                          <li class="icon-star"></li>
+                          <li class="icon-star"></li>
+                          <li class="icon-star"></li>
+                          <li class="icon-star"></li>
+                          <li class="icon-star"></li>
+                        </ul>
+                        <p>(131 reviews)</p>
+                      </div>
+                      <p class="status icon-clock">Open until<span>6:00PM</span></p>
+                    </div>
+                  </div>
+                  <div class="item dfr" data-lat="43.645801" data-lng="-79.425615" data-type="dispensaries-marker"><img src="img/central.jpg" alt=""/>
+                    <div class="description">
+                      <h3>Central Cannabis</h3>
+                      <p class="address">1255 Bay Street, Unit #702 Toronto, Ontario</p>
+                      <div class="rating dfr">
+                        <ul class="dfr" data-rating="3">
+                          <li class="icon-star"></li>
+                          <li class="icon-star"></li>
+                          <li class="icon-star"></li>
+                          <li class="icon-star"></li>
+                          <li class="icon-star"></li>
+                        </ul>
+                        <p>(131 reviews)</p>
+                      </div>
+                      <p class="status icon-hourglass">Coming Soon</p>
+                    </div>
+                  </div>
+                  <div class="item dfr" data-lat="43.645188" data-lng="-79.419242" data-type="doctors-marker"><img src="img/no-image.jpg" alt=""/>
+                    <div class="description">
+                      <h3>Central Cannabis</h3>
+                      <p class="address">1255 Bay Street, Unit #702 Toronto, Ontario</p>
+                      <div class="rating dfr">
+                        <ul class="dfr" data-rating="5">
+                          <li class="icon-star"></li>
+                          <li class="icon-star"></li>
+                          <li class="icon-star"></li>
+                          <li class="icon-star"></li>
+                          <li class="icon-star"></li>
+                        </ul>
+                        <p>(131 reviews)</p>
+                      </div>
+                      <p class="status icon-lock">Permanently Closed</p>
+                    </div>
+                  </div>
+                  <div class="item dfr" data-lat="43.643519" data-lng="-79.422546" data-type="dispensaries-marker"><img src="img/no-image.jpg" alt=""/>
+                    <div class="description">
+                      <h3>Central Cannabis</h3>
+                      <p class="address">1255 Bay Street, Unit #702 Toronto, Ontario</p>
+                      <div class="rating dfr">
+                        <ul class="dfr" data-rating="4">
+                          <li class="icon-star"></li>
+                          <li class="icon-star"></li>
+                          <li class="icon-star"></li>
+                          <li class="icon-star"></li>
+                          <li class="icon-star"></li>
+                        </ul>
+                        <p>(131 reviews)</p>
+                      </div>
+                      <p class="status icon-clock">Open until<span>6:00PM</span></p>
+                    </div>
+                  </div>
+                  <div class="item dfr" data-lat="43.641089" data-lng="-79.416549" data-type="doctors-marker"><img src="img/no-image.jpg" alt=""/>
+                    <div class="description">
+                      <h3>Central Cannabis</h3>
+                      <p class="address">1255 Bay Street, Unit #702 Toronto, Ontario</p>
+                      <div class="rating dfr">
+                        <ul class="dfr" data-rating="3">
+                          <li class="icon-star"></li>
+                          <li class="icon-star"></li>
+                          <li class="icon-star"></li>
+                          <li class="icon-star"></li>
+                          <li class="icon-star"></li>
+                        </ul>
+                        <p>(131 reviews)</p>
+                      </div>
+                      <p class="status icon-hourglass">Coming Soon<span></span></p>
+                    </div>
+                  </div>
+                  <div class="item dfr" data-lat="43.640190" data-lng="-79.427504" data-type="dispensaries-marker"><img src="img/no-image.jpg" alt=""/>
+                    <div class="description">
+                      <h3>Central Cannabis</h3>
+                      <p class="address">1255 Bay Street, Unit #702 Toronto, Ontario</p>
+                      <div class="rating dfr">
+                        <ul class="dfr" data-rating="3">
+                          <li class="icon-star"></li>
+                          <li class="icon-star"></li>
+                          <li class="icon-star"></li>
+                          <li class="icon-star"></li>
+                          <li class="icon-star"></li>
+                        </ul>
+                        <p>(131 reviews)</p>
+                      </div>
+                      <p class="status icon-lock">Permanently Closed</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="results-dispensaries">
+                <div class="results-head dfr"><a class="icon-arrow-left back" href="#">Back to Results</a></div>
+                <div class="results-description dfr"><img src="img/no-image.jpg" alt=""/>
+                  <div class="description">
+                    <h3>Central Cannabis</h3>
+                    <p class="address">1255 Bay Street, Unit #702 Toronto, Ontario</p>
+                    <div class="rating dfr">
+                      <ul class="dfr" data-rating="3">
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                      </ul>
+                      <p>(131 reviews)</p>
+                    </div>
+                    <p class="status icon-lock">Permanently Closed</p>
+                  </div>
+                  <h3>Business Hours</h3>
+                  <ul class="business-hours">
+                    <li>Monday<span>9:00am-6:00pm</span></li>
+                    <li>Tuesday<span>9:00am-6:00pm</span></li>
+                    <li><strong>Wednesday<span>9:00am-6:00pm</span></strong></li>
+                    <li>Thursday<span>9:00am-6:00pm</span></li>
+                    <li>Friday<span>9:00am-6:00pm</span></li>
+                    <li>Saturday<span>Closed</span></li>
+                    <li>Sunday<span>Closed</span></li>
+                  </ul>
+                  <div class="buttons dfr"><a class="button" href="#">More Info</a><a class="button get-directions" href="#">Get Directions</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

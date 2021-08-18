@@ -1,0 +1,261 @@
+$red:#FF4444;
+$black:#000;
+$white:#fff;
+$gray:#CBCBCB;
+$green: #8CC153;
+$dark-gray:#313131;
+$Montserrat: 'Montserrat', sans-serif;
+$SourceSansPro: 'Source Sans Pro', sans-serif;
+$Roboto: 'Roboto', sans-serif;
+.sidebar{
+	.subscribe{
+		&:before{
+			background:#f7f8f8;
+		}
+	}
+}
+.form-report{
+	display: none;
+	overflow: hidden;
+	padding-top: 20px;
+	.textarea{
+		width: 100%;
+		clear: both;
+		&.focus{
+			label{
+				top: 0;
+				font-size: 12px;
+				background: $white;
+				transform: translateY(-50%);
+			}
+		}
+		label{
+			left: 15px;
+			top: 15px;
+			pointer-events: none;
+		}
+		textarea{
+			padding: 15px;
+			border:1px solid $gray;
+			width: 100%;
+			height: 120px;
+			resize: none;
+			border-radius: 12px;
+		}
+	}
+	.input,
+	.textarea{
+		position: relative;
+		margin-bottom: 30px;
+	}
+	.input{
+		width: calc((100% - 30px) / 2);
+		float: left;
+		&.focus{
+			label{
+				top: 0;
+				background: $white;
+				font-size: 12px;
+			}
+		}
+		& + .input{
+			margin-left: 30px;
+		}
+		label{
+			pointer-events: none;
+			transition:all 0.3s ease;
+			left: 15px;
+			top: 50%;
+			transform: translate(0,-50%);
+		}
+		input{
+			&:not([type="submit"]):not([type="radio"]):not([type="checkbox"]){
+				padding: 0 15px;
+				height: 40px;
+				width: 100%;
+				border:1px solid transparent;
+				border-bottom-color: $gray;
+			}
+		}
+	}
+	label{
+		font-size: 16px;
+		position: absolute;
+		transition:all 0.3s ease;
+		sub{
+			color: #f00;
+			position: relative;
+			top: 0;
+		}
+	}
+}
+.form{
+	padding: 90px 0;
+	&.grey{
+		background: #E5E5E5;
+		.subscribe{
+			&:before{
+				background: #E5E5E5;
+			}
+			.wpcf7-text{
+				background-color: transparent;
+			}
+		}
+	}
+	.subscribe{
+		border-radius: 20px;
+		max-width: 1270px;
+		margin: 0 auto;
+		&:before{
+			font-size: 50px;
+			background: #f7f8f8;
+		}
+		& > img{
+			transform: translate(-20px,-35px);
+		}
+		.description{
+			transform: translate(-10px,0px);
+			margin-right: 70px;
+		}
+		.inputs{
+			max-width: 340px;
+			.input{
+				margin-bottom: 25px;
+				&:last-of-type{
+					margin-bottom: 0;
+				}
+			}
+		}
+		.button{
+			width: 178px;
+			height: 52px;
+			font-size: 18px;
+			border-radius: 25px;
+		}
+		h3{
+			font-size: 72px;
+			line-height: 0.9;
+		}
+		p{
+			font-size: 21px;
+			margin-bottom: 0;
+		}
+	}
+}
+.dark{
+	.form{
+		&.grey{
+			.subscribe{
+				&:before{
+					background: #242424;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 1459px) {
+	.form {
+		.subscribe {
+			.description{
+				margin-right: 30px;
+			}
+			.inputs {
+				max-width: 280px;
+			}
+		}
+	}
+}
+@media only screen and (max-width: 1199px) {
+	.form{
+		.subscribe {
+			&:before {
+				font-size: 30px;
+			}
+			h3{
+				font-size: 50px;
+			}
+			& > img{
+				width: 240px;
+
+			}
+			p {
+				 font-size: 16px
+			}
+		}
+	}
+}
+@media only screen and (max-width:991px) {
+	.form{
+		.subscribe {
+			h3{
+				font-size: 36px;
+			}
+			.inputs {
+				max-width: 200px;
+			}
+			& > img{
+				width: 200px;
+
+			}
+			p {
+				 font-size: 12px
+			}
+		}
+	}
+	.wpcf7-response-output.wpcf7-display-none.wpcf7-validation-errors{
+		left: 0;
+		bottom: 0;
+		transform:none;
+	}
+}
+@media only screen and (max-width:767px) {
+	.wpcf7-response-output.wpcf7-display-none.wpcf7-validation-errors{
+		left: 50%;
+		transform:translateX(-50%);
+		text-align: center;
+		width: 100%;
+	}
+	.form{
+		padding: 40px 15px;
+		.subscribe{
+			padding: 25px 15px 35px;
+			& > img{
+				display: none;
+			}
+			.description{
+				width: 100%;
+				transform: translate(0);
+				margin-bottom: 15px;
+			}
+			.inputs{
+				max-width: 100%;
+				width: 100%;
+			}
+			.button{
+				width: 222px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width:679px) {
+	.form-report {
+		.input {
+			width: 100%;
+			& + .input{
+				margin-left: 0;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width:479px) {
+	.form {
+		.subscribe {
+			padding: 25px 15px 50px;
+		}
+	}
+}

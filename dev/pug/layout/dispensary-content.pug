@@ -1,0 +1,306 @@
+section.jwa-map-list
+	.dispensary
+		.container
+			.row
+				.col-lg-12.col-md-12.col-sm-12.col-xs-12
+					.breadcrumbs
+						span
+							a(href="#") Dispensaries
+						span Canncentral Cannabis
+			.row
+				.col-lg-6.col-md-12.col-sm-12.col-xs-12
+					.item.dfr(data-lat="43.640190" data-lng="-79.427504"  data-type="doctors-marker")
+						img(src="img/central.jpg", alt="#")
+						.description
+							h3 Central Cannabis
+							.rating.dfr
+								ul.dfr(data-rating="4")
+									li.icon-star
+									li.icon-star
+									li.icon-star
+									li.icon-star
+									li.icon-star
+								p (131 reviews)
+							p.address 1255 Bay Street, Unit #702 Toronto, Ontario
+							a.phone.icon-phone(href="tel:12266674545") 1 226 667 4545
+							a.web.icon-planet(href="http://www.centralcannabis.net/" target="_blank") http://www.centralcannabis.net/
+							p.status.icon-clock Open until
+								span 6:00PM
+							.buttons.dfr
+								a.button(href="#") Сall
+								a.button(href="#") Get Directions
+							.share.dfr
+								.icon-share
+								ul.soc
+									li
+										a.icon-facebook(href="#")
+									li
+										a.icon-twitter(href="#")
+				.col-lg-6.col-md-12.col-sm-12.col-xs-12.dfr
+					h3 Review Summary
+					.chart(data-percent="70")
+						p 4.2
+						.rating.dfr
+							ul.dfr(data-rating="4")
+								li.icon-star
+								li.icon-star
+								li.icon-star
+								li.icon-star
+								li.icon-star
+					ul.progress-bars
+						li.dfr
+							span 5 Stars
+							.progress
+								.progress-bar(role='progressbar', aria-valuenow='45', aria-valuemin='0', aria-valuemax='100', style='width: 45%;')
+							p 55
+						li.dfr
+							span 4 Stars
+							.progress
+								.progress-bar(role='progressbar', aria-valuenow='90', aria-valuemin='0', aria-valuemax='100', style='width: 90%;')
+							p 612
+						li.dfr
+							span 3 Stars
+							.progress
+								.progress-bar(role='progressbar', aria-valuenow='35', aria-valuemin='0', aria-valuemax='100', style='width: 35%;')
+							p 43
+						li.dfr
+							span 2 Stars
+							.progress
+								.progress-bar(role='progressbar', aria-valuenow='20', aria-valuemin='0', aria-valuemax='100', style='width: 20%;')
+							p 35
+						li.dfr
+							span 1 Stars
+							.progress
+								.progress-bar(role='progressbar', aria-valuenow='6', aria-valuemin='0', aria-valuemax='100', style='width: 6%;')
+							p 3
+	.dispensary-description
+		.container
+			.row
+				.col-lg-12.col-md-12.col-sm-12.col-xs-12
+					ul.dispensary-nav.dfr
+						li.active
+							a(href='#business-hours', data-toggle='tab') Business Hours
+						li
+							a(href='#reviews', data-toggle='tab') Reviews
+								span (1245)
+						li
+							a(href='#about', data-toggle='tab') About
+					.tab-content
+						#business-hours.tab-pane.active
+							ul.business-hours.icon-lock(data-title="Permanently Closed")
+								li Monday
+									span 9:00am-6:00pm
+								li Tuesday
+									span 9:00am-6:00pm
+								li
+									strong Wednesday
+										span 9:00am-6:00pm
+								li Thursday
+									span 9:00am-6:00pm
+								li Friday
+									span 9:00am-6:00pm
+								li Saturday
+									span Closed
+								li Sunday
+									span Closed
+							#map(data-lat="43.640190" data-lng="-79.427504")
+						#reviews.tab-pane
+							form.reviews-form.dfr
+								h3 Write a Review
+								p Rate Dispensary
+								.rating.dfr
+									ul.dfr(data-rating="4")
+										li.icon-star
+										li.icon-star
+										li.icon-star
+										li.icon-star
+										li.icon-star
+								.input
+									input(type="text" placeholder="Name")
+								.input
+									input(type="text" placeholder="Email")
+								.textarea
+									textarea(placeholder="Comment...")
+								.input
+									input.button(type="submit", value="Submit")
+							.comment_block
+								.review
+									h2 Reviews
+										span (321)
+									ul.comments-list
+										li#li-comment-113.comment.even.thread-even.depth-1
+											#comment-113
+												.comment_block
+													.comment-author.vcard
+														img.avatar(src="img/user.jpg", alt="#")
+														cite.fn Robin
+														span.says
+														span.time.icon-clock October 17, 2019 02:04 PM
+													.comment_text
+														p
+															| Where is the brownie recipe
+															br
+															|  You only gave how to make butter and oils
+													ul.sympathy
+														li
+															a.icon-top(href="#") 23
+														li
+															a.icon-bottom(href="#") 151
+													.reply
+														a.comment-reply-link(href="#") Reply
+													.clear
+											ul.children
+												li#li-comment-114.comment.odd.alt.depth-2
+													#comment-114
+														.comment_block
+															.comment-author.vcard
+																img.avatar(src="img/no-img.svg", alt="#")
+																cite.fn Scott Heron
+																span.says
+																span.time.icon-clock October 17, 2019 03:03 PM
+																.comment-meta.commentmetadata
+																	a(href='#')
+															.comment_text
+																p
+																	strong Hey Robin,
+																	| Great question! The benefit of knowing how to make butter and oil, is that you can use these in any recipe to infuse them with cannabis. If you’d like to make cannabis-infused brownies, take your favourite brownie recipe and replace the regular butter with the cannabis infused butter.
+															ul.sympathy
+																li
+																	a.icon-top(href="#") 12
+																li
+																	a.icon-bottom(href="#") 23
+															.reply
+																a.comment-reply-link(href="#") Reply
+												li#li-comment-114.comment.odd.alt.depth-2
+													#comment-114
+														.comment_block
+															.comment-author.vcard
+																img.avatar(src="img/user.jpg", alt="#")
+																cite.fn Robin
+																span.says
+																span.time.icon-clock October 17, 2019 03:03 PM
+																.comment-meta.commentmetadata
+																	a(href='#')
+															.comment_text
+																p
+																	strong Hey Scott Heron,
+																	|  Lorem ipsum dolor sit amet, consectetur adipisicing elit. A iste nostrum minus voluptatum eveniet tempore facere temporibus dolore fuga magni eum, veritatis? Modi autem voluptatem doloremque, accusamus unde, accusantium quos maiores reprehenderit ab quas error, necessitatibus excepturi ipsam vel magni facilis, sed impedit assumenda. Natus molestias quaerat fuga blanditiis atque.
+															ul.sympathy
+																li
+																	a.icon-top(href="#") 12
+																li
+																	a.icon-bottom(href="#") 23
+															.reply
+																a.comment-reply-link(href="#") Reply
+															.reply-comment
+																img.avatar(src="img/user.jpg", alt="#")
+																.textarea
+																	textarea(placeholder="Comment")
+																button.button(type="submit") Send
+										li#li-comment-113.comment.even.thread-even.depth-1
+											#comment-113
+												.comment_block
+													.comment-author.vcard
+														img.avatar(src="img/user.jpg", alt="#")
+														cite.fn Robin
+														span.says
+														span.time.icon-clock October 17, 2019 02:04 PM
+													.comment_text
+														p
+															| Where is the brownie recipe
+															br
+															|  You only gave how to make butter and oils
+													ul.sympathy
+														li
+															a.icon-top(href="#") 23
+														li
+															a.icon-bottom(href="#") 151
+													.reply
+														a.comment-reply-link(href="#") Reply
+													.clear
+						#about.tab-pane
+							.left-block
+								h3 Central Cannabis
+								p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+								p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+							.right-block
+								h3 Photos (12)
+								.about-slider
+									.item
+										img(src="img/dispensaries-1.jpg", alt="#")
+									.item
+										img(src="img/dispensaries-2.jpg", alt="#")
+									.item
+										img(src="img/dispensaries-3.jpg", alt="#")
+									.item
+										img(src="img/dispensaries-1.jpg", alt="#")
+									.item
+										img(src="img/dispensaries-2.jpg", alt="#")
+									.item
+										img(src="img/dispensaries-3.jpg", alt="#")
+								.about-slider-nav
+									.item
+										img(src="img/dispensaries-1.jpg", alt="#")
+									.item
+										img(src="img/dispensaries-2.jpg", alt="#")
+									.item
+										img(src="img/dispensaries-3.jpg", alt="#")
+									.item
+										img(src="img/dispensaries-1.jpg", alt="#")
+									.item
+										img(src="img/dispensaries-2.jpg", alt="#")
+									.item
+										img(src="img/dispensaries-3.jpg", alt="#")
+	.nearest
+		.container
+			.row
+				.col-lg-12.col-md-12.col-sm-12.col-xs-12
+					h2.title
+						span Nearest Dispensaries
+			.row
+				.col-lg-4.col-md-4.col-sm-4.col-xs-12
+					a.item.dfr(href="#")
+						img(src="img/no-image.jpg", alt="")
+						.description
+							h3 Central Cannabis
+							p.address 1255 Bay Street, Unit #702 Toronto, Ontario
+							.rating.dfr
+								ul.dfr(data-rating="4")
+									li.icon-star
+									li.icon-star
+									li.icon-star
+									li.icon-star
+									li.icon-star
+								p (131 reviews)
+							p.status.icon-clock Open until
+								span 6:00PM
+				.col-lg-4.col-md-4.col-sm-4.col-xs-12
+					a.item.dfr(href="#")
+						img(src="img/central.jpg", alt="")
+						.description
+							h3 Central Cannabis
+							p.address 1255 Bay Street, Unit #702 Toronto, Ontario
+							.rating.dfr
+								ul.dfr(data-rating="3")
+									li.icon-star
+									li.icon-star
+									li.icon-star
+									li.icon-star
+									li.icon-star
+								p (131 reviews)
+							p.status.icon-hourglass Coming Soon
+				.col-lg-4.col-md-4.col-sm-4.col-xs-12
+					a.item.dfr(href="#")
+						img(src="img/no-image.jpg", alt="")
+						.description
+							h3 Central Cannabis
+							p.address 1255 Bay Street, Unit #702 Toronto, Ontario
+							.rating.dfr
+								ul.dfr(data-rating="5")
+									li.icon-star
+									li.icon-star
+									li.icon-star
+									li.icon-star
+									li.icon-star
+								p (131 reviews)
+							p.status.icon-lock Permanently Closed

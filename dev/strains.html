@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" id="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="theme-color" content="#2A1730">
+    <meta name="msapplication-navbutton-color" content="#2A1730">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#2A1730">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Test Pug Page</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500|Lato:400,500|Montserrat:400,600,700,800|Source+Sans+Pro:400,700&amp;display=swap" rel="stylesheet">
+    <!--(if lt IE 9)-->
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <!--(endif)-->
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 dfr">
+            <div class="burger"><span></span><span></span><span></span></div>
+            <nav class="quadmenu-default_theme quadmenu-align-left quadmenu-divider-hide quadmenu-carets-show quadmenu-background-color quadmenu-mobile-shadow-show quadmenu-dropdown-shadow-show quadmenu-hover-ripple quadmenu-is-embed quadmenu-notouch quadmenu-is-horizontal js quadmenu-v2.0.2" id="quadmenu" data-template="embed" data-theme="default_theme" data-unwrap="1" data-breakpoint="767">
+              <div class="quadmenu-container">
+                <div class="quadmenu-navbar-collapse collapsed in" id="quadmenu_0">
+                  <ul class="quadmenu-navbar-nav">
+                    <li class="quadmenu-item-1518 quadmenu-item quadmenu-item-object-mega quadmenu-item-has-children quadmenu-item-type-mega quadmenu-item-level-0 quadmenu-dropdown quadmenu-has-caret quadmenu-has-title quadmenu-has-link quadmenu-dropdown-right dropdown-maxheight" id="menu-item-1518"><a class="quadmenu-dropdown-toggle hoverintent" href=""><span class="quadmenu-item-content"><span class="quadmenu-caret"></span><span class="quadmenu-text hover t_1000">menu</span></span></a>
+                      <div class="quadmenu_btt t_300 quadmenu-dropdown-menu quadmenu-dropdown-stretch-boxed" id="dropdown-1518">
+                        <ul class="quadmenu-row ps-container ps-theme-default" data-ps-id="ed6eb218-ca1b-3c59-2781-c09b69a23e05">
+                          <li class="quadmenu-item-1519 quadmenu-item quadmenu-item-object-column quadmenu-item-has-children quadmenu-item-type-column col-xs-12 col-sm-8" id="menu-item-1519">
+                            <div id="dropdown-1519">
+                              <ul>
+                                <li class="quadmenu-item-1523 quadmenu-item quadmenu-item-object-widget quadmenu-item-type-widget" id="menu-item-1523">
+                                  <div class="quadmenu-item-widget widget widget_nav_menu">
+                                    <div class="menu-mega-ferst-colums-container">
+                                      <ul class="menu" id="menu-mega-ferst-colums">
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1463" id="menu-item-1463"><a href="#">News</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1464" id="menu-item-1464"><a href="#">Jaw-Dropping Headlines</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1465" id="menu-item-1465"><a href="#">Community</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1466" id="menu-item-1466"><a href="#">Legislation / Weekly Round up</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1467" id="menu-item-1467"><a href="#">Medicine</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1468" id="menu-item-1468"><a href="#">Business</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1469" id="menu-item-1469"><a href="#">Politics</a></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li class="quadmenu-item-1524 quadmenu-item quadmenu-item-object-widget quadmenu-item-type-widget" id="menu-item-1524">
+                                  <div class="quadmenu-item-widget widget widget_nav_menu">
+                                    <div class="menu-mega-two-colums-container">
+                                      <ul class="menu" id="menu-mega-two-colums">
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1475" id="menu-item-1475"><a href="#">Reviews</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1470" id="menu-item-1470"><a href="#">Strains</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1471" id="menu-item-1471"><a href="#">Products</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1472" id="menu-item-1472"><a href="#">Brands</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1473" id="menu-item-1473"><a href="#">Dispensaries</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1474" id="menu-item-1474"><a href="#">Bars & Restaurants</a></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li class="quadmenu-item-1524 quadmenu-item quadmenu-item-object-widget quadmenu-item-type-widget" id="menu-item-1524">
+                                  <div class="quadmenu-item-widget widget widget_nav_menu">
+                                    <div class="menu-mega-two-colums-container">
+                                      <ul class="menu" id="menu-mega-two-colums">
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1475" id="menu-item-1475"><a href="#">Cannabis info</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1470" id="menu-item-1470"><a href="#">Cannabasics</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1471" id="menu-item-1471"><a href="#">Encycloweedia</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1472" id="menu-item-1472"><a href="#">Strains</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1473" id="menu-item-1473"><a href="#">Dispensaries</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1474" id="menu-item-1474"><a href="#">Manufacturers</a></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li class="quadmenu-item-1523 quadmenu-item quadmenu-item-object-widget quadmenu-item-type-widget" id="menu-item-1523">
+                                  <div class="quadmenu-item-widget widget widget_nav_menu">
+                                    <div class="menu-mega-ferst-colums-container">
+                                      <ul class="menu" id="menu-mega-ferst-colums">
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1463" id="menu-item-1463"><a href="#">Lifestyle</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1464" id="menu-item-1464"><a href="#">Pot Culture</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1465" id="menu-item-1465"><a href="#">DIY</a></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li class="quadmenu-item-1524 quadmenu-item quadmenu-item-object-widget quadmenu-item-type-widget" id="menu-item-1524">
+                                  <div class="quadmenu-item-widget widget widget_nav_menu">
+                                    <div class="menu-mega-two-colums-container">
+                                      <ul class="menu" id="menu-mega-two-colums">
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1475" id="menu-item-1475"><a href="#">Health & Wellness</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1470" id="menu-item-1470"><a href="#">Treatments</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1471" id="menu-item-1471"><a href="#">Science</a></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li class="quadmenu-item-1524 quadmenu-item quadmenu-item-object-widget quadmenu-item-type-widget" id="menu-item-1524">
+                                  <div class="quadmenu-item-widget widget widget_nav_menu">
+                                    <div class="menu-mega-two-colums-container">
+                                      <ul class="menu" id="menu-mega-two-colums">
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1475" id="menu-item-1475"><a href="#">Events</a></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li class="quadmenu-item-1524 quadmenu-item quadmenu-item-object-widget quadmenu-item-type-widget" id="menu-item-1524">
+                                  <div class="quadmenu-item-widget widget widget_nav_menu">
+                                    <div class="menu-mega-two-colums-container">
+                                      <ul class="menu" id="menu-mega-two-colums">
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1475" id="menu-item-1475"><a href="#">Recipes</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1470" id="menu-item-1470"><a href="#">Food & Bev</a></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1471" id="menu-item-1471"><a href="#">Topicals</a></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li class="quadmenu-item-1546 quadmenu-item quadmenu-item-object-widget quadmenu-item-type-widget" id="menu-item-1546">
+                                  <div class="quadmenu-item-widget widget widget_custom_html">
+                                    <div class="textwidget custom-html-widget">
+                                      <div class="wpcf7" id="wpcf7-f1338-o1">
+                                        <form class="wpcf7-form">
+                                          <div class="subscribe icon-scissors">
+                                            <h3>The Weekly BuzZz</h3>
+                                            <p>Subscribe to the Weekly Buzz and never miss another marijuana moment!</p>
+                                            <div class="input"><span class="wpcf7-form-control-wrap your-email">
+                                                <input class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" type="email" name="your-email" value="" size="40" aria-required="true" aria-invalid="false" placeholder="E-mail *"></span></div>
+                                            <div class="input">
+                                              <input class="wpcf7-form-control wpcf7-submit button purple" type="submit" value="subscribe">
+                                            </div>
+                                          </div>
+                                        </form>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </li>
+                              </ul>
+                            </div>
+                          </li>
+                          <li class="quadmenu-item-1522 quadmenu-item quadmenu-item-object-column quadmenu-item-has-children quadmenu-item-type-column col-xs-12 col-sm-4" id="menu-item-1522">
+                            <div id="dropdown-1522">
+                              <ul>
+                                <li class="quadmenu-item-1527 quadmenu-item quadmenu-item-object-widget quadmenu-item-type-widget" id="menu-item-1527">
+                                  <div class="quadmenu-item-widget widget widget_custom_html">
+                                    <div class="textwidget custom-html-widget"><a class="logo" href=""><img src="img/now-logo.svg" alt=""></a>
+                                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p><a class="link" href="">Learn More</a>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li class="quadmenu-item-1528 quadmenu-item quadmenu-item-object-widget quadmenu-item-type-widget" id="menu-item-1528">
+                                  <div class="quadmenu-item-widget widget widget_custom_html">
+                                    <div class="textwidget custom-html-widget"><a class="logo" href=""><img src="img/esports.svg" alt=""></a>
+                                      <p>eCentral Sports is the Homebase for the creative class eSports fan in search of the latest news, cultural coverage, insights from experts, event access, stats, and local experience guides.</p><a class="link" href="">Learn More</a>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li class="quadmenu-item-1529 quadmenu-item quadmenu-item-object-widget quadmenu-item-type-widget" id="menu-item-1529">
+                                  <div class="quadmenu-item-widget widget widget_custom_html">
+                                    <div class="textwidget custom-html-widget"><a class="logo" href=""><img src="img/straight.png" alt=""></a>
+                                      <p>Established as the news, lifestyle, and entertainment weekly in Vancouver for 50 years, the Georgia Straight is an integral part of the active urban West Coast lifestyle with over 1.081 million readers per week.</p><a class="link" href="">Learn More</a>
+                                    </div>
+                                  </div>
+                                </li>
+                              </ul>
+                            </div>
+                          </li>
+                          <div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 3px;">
+                            <div class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div>
+                          </div>
+                          <div class="ps-scrollbar-y-rail" style="top: 0px; right: 3px;">
+                            <div class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 0px;"></div>
+                          </div>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav><a class="logo" href="/"><img src="img/logo.svg" alt=""></a>
+            <ul class="menu dfr">
+              <li><a href="#">Business</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Lifestyle</a></li>
+              <li><a href="#">DIY</a></li>
+            </ul>
+            <ul class="soc dfr">
+              <li><a class="icon-facebook" href="#"></a></li>
+              <li><a class="icon-twitter" href="#"></a></li>
+              <li><a class="icon-instagram" href="#"></a></li>
+            </ul>
+            <div class="checkbox-color">
+              <input id="black-color" type="checkbox">
+              <label class="icon-moon" for="black-color"></label>
+            </div>
+            <form class="search" id="searchform">
+              <input type="text" placeholder="Search and hit enter">
+              <button class="icon-search"></button>
+            </form>
+            <ul class="user dfr">
+              <li><a class="icon-user" href="#"></a>
+                <ul class="submenu">
+                  <li><a href="">Profile</a></li>
+                  <li><a href="">Log Out</a></li>
+                </ul>
+              </li>
+              <!--lia(href="#") Log In
+              -->
+              <!--lia(href="#") Sign Up
+              -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="banner mini">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <h1>Explore Strains</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="strains">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 dfrt">
+              <div class="sidebar">
+                <div class="filter">
+                  <div class="dropdown">
+                    <p class="title icon-down">Type</p>
+                    <ul>
+                      <li>
+                        <div class="checkbox">
+                          <input id="all-type" type="checkbox">
+                          <label class="icon-check-mark" for="all-type">All</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="hybrid" type="checkbox">
+                          <label class="icon-check-mark" for="hybrid">Hybrid</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="indica" type="checkbox">
+                          <label class="icon-check-mark" for="indica">Indica</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="sativa" type="checkbox">
+                          <label class="icon-check-mark" for="sativa">Sativa</label>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="dropdown">
+                    <p class="title icon-down">Vibes</p>
+                    <ul>
+                      <li>
+                        <div class="checkbox">
+                          <input id="all-vibes" type="checkbox">
+                          <label class="icon-check-mark" for="all-vibes">All</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="vibes-chill" type="checkbox">
+                          <label class="icon-check-mark" for="vibes-chill">Chill</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="vibes-creative" type="checkbox">
+                          <label class="icon-check-mark" for="vibes-creative">Creative</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="vibes-energized" type="checkbox">
+                          <label class="icon-check-mark" for="vibes-energized">Energized</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="vibes-focused" type="checkbox">
+                          <label class="icon-check-mark" for="vibes-focused">Focused</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="vibes-higher" type="checkbox">
+                          <label class="icon-check-mark" for="vibes-higher">Higher</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="vibes-sleepy" type="checkbox">
+                          <label class="icon-check-mark" for="vibes-sleepy">Sleepy</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="vibes-turned-on" type="checkbox">
+                          <label class="icon-check-mark" for="vibes-turned-on">Turned On</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="vibes-relief" type="checkbox">
+                          <label class="icon-check-mark" for="vibes-relief">Relief</label>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="dropdown">
+                    <p class="title icon-down">Medical</p>
+                    <ul>
+                      <li>
+                        <div class="checkbox">
+                          <input id="all-medical" type="checkbox">
+                          <label class="icon-check-mark" for="all-medical">All</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="medical-body-pain" type="checkbox">
+                          <label class="icon-check-mark" for="medical-body-pain">Body Pain</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="medical-cramps" type="checkbox">
+                          <label class="icon-check-mark" for="medical-cramps">Cramps</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="medical-depression" type="checkbox">
+                          <label class="icon-check-mark" for="medical-depression">Depression</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="medical-eye-pressure" type="checkbox">
+                          <label class="icon-check-mark" for="medical-eye-pressure">Eye Pressure</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="medical-fatigue" type="checkbox">
+                          <label class="icon-check-mark" for="medical-fatigue">Fatigue</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="medical-headaches" type="checkbox">
+                          <label class="icon-check-mark" for="medical-headaches">Headaches</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="medical-inflammation" type="checkbox">
+                          <label class="icon-check-mark" for="medical-inflammation">Inflammation</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="medical-insomnia" type="checkbox">
+                          <label class="icon-check-mark" for="medical-insomnia">Insomnia</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="medical-lack-of-appetite" type="checkbox">
+                          <label class="icon-check-mark" for="medical-lack-of-appetite">Lack of Appetite</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="medical-muscle-spasms" type="checkbox">
+                          <label class="icon-check-mark" for="medical-muscle-spasms">Muscle Spasms</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="medical-nausea" type="checkbox">
+                          <label class="icon-check-mark" for="medical-nausea">Nausea</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="medical-seizures" type="checkbox">
+                          <label class="icon-check-mark" for="medical-seizures">Seizures</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="medical-spasticity" type="checkbox">
+                          <label class="icon-check-mark" for="medical-spasticity">Spasticity</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="medical-stress" type="checkbox">
+                          <label class="icon-check-mark" for="medical-stress">Stress</label>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="dropdown">
+                    <p class="title icon-down">Flavours</p>
+                    <ul>
+                      <li>
+                        <div class="checkbox">
+                          <input id="all-flavours" type="checkbox">
+                          <label class="icon-check-mark" for="all-flavours">All</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-ammonia" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-ammonia">Ammonia</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-apple" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-apple">Apple</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-apricot" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-apricot">Apricot</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-berry" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-berry">Berry</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-blue-cheese" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-blue-cheese">Blue Cheese</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-blueberry" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-blueberry">Blueberry</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-butter" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-butter">Butter</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-cheese" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-cheese">Cheese</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-chemical" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-chemical">Chemical</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-chestnut" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-chestnut">Chestnut</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-citrus" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-citrus">Citrus</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-coffee" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-coffee">Coffee</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-diesel" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-diesel">Diesel</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-earthy" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-earthy">Earthy</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-flowery" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-flowery">Flowery</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-grape" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-grape">Grape</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-grapefruit" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-grapefruit">Grapefruit</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-honey" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-honey">Honey</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-lavender" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-lavender">Lavender</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-lemon" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-lemon">Lemon</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-lime" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-lime">Lime</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-mango" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-mango">Mango</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-menthol" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-menthol">Menthol</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-mint" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-mint">Mint</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-nutty" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-nutty">Nutty</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-orange" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-orange">Orange</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-peach" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-peach">Peach</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-pear" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-pear">Pear</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-pepper" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-pepper">Pepper</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-pine" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-pine">Pine</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-pineapple" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-pineapple">Pineapple</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-plum" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-plum">Plum</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-pungent" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-pungent">Pungent</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-rose" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-rose">Rose</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-sage" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-sage">Sage</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-skunk" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-skunk">Skunk</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-spicy" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-spicy">Spicy</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-strawberry" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-strawberry">Strawberry</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-sweet" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-sweet">Sweet</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-tar" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-tar">Tar</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-tea" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-tea">Tea</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-tobacco" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-tobacco">Tobacco</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-tree-fruit" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-tree-fruit">Tree Fruit</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-tropical" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-tropical">Tropical</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-vanilla" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-vanilla">Vanilla</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-violet" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-violet">Violet</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="checkbox">
+                          <input id="flavours-woody" type="checkbox">
+                          <label class="icon-check-mark" for="flavours-woody">Woody</label>
+                        </div>
+                      </li>
+                    </ul>
+                  </div><a class="clear-filter" href="#">Clear All Filters</a>
+                </div>
+              </div>
+              <div class="content">
+                <div class="strains-items dfr"><a class="strains-item" href="#" style="color:#01A52A;">
+                    <p class="type" style="background-color:#01A52A;">Sativa</p><img src="img/kings-primary.jpg" alt="">
+                    <h3>Alaskin Thunderfuck (Extra Large)</h3>
+                    <div class="rating dfr">
+                      <ul class="dfr" data-rating="4">
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                      </ul>
+                      <p>(131 reviews)</p>
+                    </div>
+                    <ul class="meta dfr">
+                      <li class="icon-pictures">123</li>
+                      <li class="icon-views">11,523</li>
+                    </ul></a><a class="strains-item" href="#" style="color:#7A48E1;">
+                    <p class="type" style="background-color:#7A48E1;">Indica</p><img src="img/kings-primary-2.jpg" alt="">
+                    <h3>Alaskin Thunderfuck (Extra Large)</h3>
+                    <div class="rating dfr">
+                      <ul class="dfr" data-rating="4">
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                      </ul>
+                      <p>(131 reviews)</p>
+                    </div>
+                    <ul class="meta dfr">
+                      <li class="icon-pictures">123</li>
+                      <li class="icon-views">11,523</li>
+                    </ul></a><a class="strains-item" href="#" style="color:#FF7200;">
+                    <p class="type" style="background-color:#FF7200;">Hybrid</p><img src="img/kings-primary-3.jpg" alt="">
+                    <h3>Alaskin Thunderfuck (Extra Large)</h3>
+                    <div class="rating dfr">
+                      <ul class="dfr" data-rating="4">
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                      </ul>
+                      <p>(131 reviews)</p>
+                    </div>
+                    <ul class="meta dfr">
+                      <li class="icon-pictures">123</li>
+                      <li class="icon-views">11,523</li>
+                    </ul></a><a class="strains-item" href="#" style="color:#01A52A;">
+                    <p class="type" style="background-color:#01A52A;">Sativa</p><img src="img/kings-primary.jpg" alt="">
+                    <h3>Alaskin Thunderfuck (Extra Large)</h3>
+                    <div class="rating dfr">
+                      <ul class="dfr" data-rating="4">
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                      </ul>
+                      <p>(131 reviews)</p>
+                    </div>
+                    <ul class="meta dfr">
+                      <li class="icon-pictures">123</li>
+                      <li class="icon-views">11,523</li>
+                    </ul></a><a class="strains-item" href="#" style="color:#7A48E1;">
+                    <p class="type" style="background-color:#7A48E1;">Indica</p><img src="img/kings-primary-2.jpg" alt="">
+                    <h3>Alaskin Thunderfuck (Extra Large)</h3>
+                    <div class="rating dfr">
+                      <ul class="dfr" data-rating="4">
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                      </ul>
+                      <p>(131 reviews)</p>
+                    </div>
+                    <ul class="meta dfr">
+                      <li class="icon-pictures">123</li>
+                      <li class="icon-views">11,523</li>
+                    </ul></a><a class="strains-item" href="#" style="color:#FF7200;">
+                    <p class="type" style="background-color:#FF7200;">Hybrid</p><img src="img/kings-primary-3.jpg" alt="">
+                    <h3>Alaskin Thunderfuck (Extra Large)</h3>
+                    <div class="rating dfr">
+                      <ul class="dfr" data-rating="4">
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                      </ul>
+                      <p>(131 reviews)</p>
+                    </div>
+                    <ul class="meta dfr">
+                      <li class="icon-pictures">123</li>
+                      <li class="icon-views">11,523</li>
+                    </ul></a><a class="strains-item" href="#" style="color:#01A52A;">
+                    <p class="type" style="background-color:#01A52A;">Sativa</p><img src="img/kings-primary.jpg" alt="">
+                    <h3>Alaskin Thunderfuck (Extra Large)</h3>
+                    <div class="rating dfr">
+                      <ul class="dfr" data-rating="4">
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                      </ul>
+                      <p>(131 reviews)</p>
+                    </div>
+                    <ul class="meta dfr">
+                      <li class="icon-pictures">123</li>
+                      <li class="icon-views">11,523</li>
+                    </ul></a><a class="strains-item" href="#" style="color:#7A48E1;">
+                    <p class="type" style="background-color:#7A48E1;">Indica</p><img src="img/kings-primary-2.jpg" alt="">
+                    <h3>Alaskin Thunderfuck (Extra Large)</h3>
+                    <div class="rating dfr">
+                      <ul class="dfr" data-rating="4">
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                      </ul>
+                      <p>(131 reviews)</p>
+                    </div>
+                    <ul class="meta dfr">
+                      <li class="icon-pictures">123</li>
+                      <li class="icon-views">11,523</li>
+                    </ul></a><a class="strains-item" href="#" style="color:#FF7200;">
+                    <p class="type" style="background-color:#FF7200;">Hybrid</p><img src="img/kings-primary-3.jpg" alt="">
+                    <h3>Alaskin Thunderfuck (Extra Large)</h3>
+                    <div class="rating dfr">
+                      <ul class="dfr" data-rating="4">
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                      </ul>
+                      <p>(131 reviews)</p>
+                    </div>
+                    <ul class="meta dfr">
+                      <li class="icon-pictures">123</li>
+                      <li class="icon-views">11,523</li>
+                    </ul></a><a class="strains-item" href="#" style="color:#01A52A;">
+                    <p class="type" style="background-color:#01A52A;">Sativa</p><img src="img/kings-primary.jpg" alt="">
+                    <h3>Alaskin Thunderfuck (Extra Large)</h3>
+                    <div class="rating dfr">
+                      <ul class="dfr" data-rating="4">
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                      </ul>
+                      <p>(131 reviews)</p>
+                    </div>
+                    <ul class="meta dfr">
+                      <li class="icon-pictures">123</li>
+                      <li class="icon-views">11,523</li>
+                    </ul></a><a class="strains-item" href="#" style="color:#7A48E1;">
+                    <p class="type" style="background-color:#7A48E1;">Indica</p><img src="img/kings-primary-2.jpg" alt="">
+                    <h3>Alaskin Thunderfuck (Extra Large)</h3>
+                    <div class="rating dfr">
+                      <ul class="dfr" data-rating="4">
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                      </ul>
+                      <p>(131 reviews)</p>
+                    </div>
+                    <ul class="meta dfr">
+                      <li class="icon-pictures">123</li>
+                      <li class="icon-views">11,523</li>
+                    </ul></a><a class="strains-item" href="#" style="color:#FF7200;">
+                    <p class="type" style="background-color:#FF7200;">Hybrid</p><img src="img/kings-primary-3.jpg" alt="">
+                    <h3>Alaskin Thunderfuck (Extra Large)</h3>
+                    <div class="rating dfr">
+                      <ul class="dfr" data-rating="4">
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                        <li class="icon-star"></li>
+                      </ul>
+                      <p>(131 reviews)</p>
+                    </div>
+                    <ul class="meta dfr">
+                      <li class="icon-pictures">123</li>
+                      <li class="icon-views">11,523</li>
+                    </ul></a><a class="load-more" href="#">Load 12 more</a></div>
+                <div class="wp-pagenavi">
+                  <p>Pages:</p><a class="prevpostslink icon-arrow-left" href="#"></a><span class="current">2</span><a class="page larger" href="#">3</a><a class="page larger" href="#">4</a><a class="page larger" href="#">5</a><a class="page larger" href="#">6</a><span class="extend">...</span><a class="larger page" href="#">10</a><a class="nextpostslink icon-arrow-right" href="#"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-block">
+        <div class="footer-top">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 dfr">
+                <div class="menu-block">
+                  <h4>Publication Sections</h4>
+                  <ul class="menu dfr">
+                    <li><a href="#">Legalization</a></li>
+                    <li><a href="#">DIY</a></li>
+                    <li><a href="#">Cannabasics</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">LifeSTYLE</a></li>
+                    <li><a href="#">Encycloweedia</a></li>
+                    <li><a href="#">People</a></li>
+                    <li><a href="#">Stuff</a></li>
+                    <li><a href="#">Strains</a></li>
+                    <li><a href="#">Medicine</a></li>
+                    <li><a href="#">Pot culture</a></li>
+                    <li><a href="#">Dispensaries</a></li>
+                    <li><a href="#">Politics</a></li>
+                  </ul>
+                </div>
+                <div class="menu-block">
+                  <h4>About</h4>
+                  <ul class="menu">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Advertise</a></li>
+                  </ul>
+                </div>
+                <div class="menu-block">
+                  <ul class="soc dfr">
+                    <li><a class="icon-facebook" href="#"></a></li>
+                    <li><a class="icon-twitter" href="#"></a></li>
+                    <li><a class="icon-instagram" href="#"></a></li>
+                  </ul>
+                </div>
+                <p>The information provided here is not intended to diagnose, treat or prescribe for any health condition and should not be considered a substitute for professional medical advice/treatment for medical conditions. Always seek the advice of a qualified health care provider regarding any medical condition. Never disregard medical advice or delay seeking it due to something you have read on CannCentral.com. To ensure the information recommended here meets your health requirements you should seek the advice of a qualified health care provider. CannCentral.com and the distinctive CannCentral™ wordmark and cannabis leaf logos are trademarks of CannCentral.com, 2020.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 dfr">
+                <p class="copyright">Copyright © 2021 HighBurg</p>
+                <ul class="menu dfr">
+                  <li><a href="#">Legal Disclaimer</a></li>
+                  <li><a href="#">Terms of Use</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/build.js"></script>
+  </body>
+</html>

@@ -1,0 +1,96 @@
+$black:#000;
+$white:#fff;
+$gray:#CBCBCB;
+$green: #8CC153;
+$dark-gray:#313131;
+$Montserrat: 'Montserrat', sans-serif;
+$Lato: 'Lato', sans-serif;
+.contacts{
+	border-radius: 12px;
+	background: $white;
+	margin-top: 65px;
+	margin-bottom: 105px;
+	padding: 50px;
+	h1{
+		font-weight: 800;
+		font-size: 36px;
+		color: $dark-gray;
+		font-family: $Montserrat;
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	form{
+		max-width: 435px;
+		input{
+			&[type="text"],
+			&[type="email"],
+			&[type="tel"]{
+				padding: 0 15px;
+				border:1px solid transparent;
+				border-bottom-color:$gray;
+				background-color: transparent;
+				height: 40px;
+				width: 100%;
+			}
+		}
+		.input{
+			margin-bottom: 25px;
+			&:last-of-type{
+				margin-bottom: 0;
+			}
+		}
+		textarea{
+			padding: 15px;
+			border-radius: 12px;
+			width: 100%;
+			height: 214px;
+			resize: none;
+			background-color: transparent;
+			border:1px solid $gray;
+			margin-bottom: 25px;
+		}
+	}
+	.desc{
+		width: calc(100% - 435px - 7.440vw);
+		margin-left: 7.440vw;
+	}
+	p{
+		&:not([class]){
+			margin-bottom: 45px;
+			font-size: 18px;
+			line-height: 36px;
+		}
+	}
+}
+.dark{
+	.contacts{
+		h1{
+			color: $white;
+		}
+		background: #212121;
+	}
+}
+@media only screen and (max-width: 1199px) {
+	.contacts {
+		.desc {
+			width: calc(100% - 465px);
+			margin-left: 30px;
+		}
+	}
+}
+@media only screen and (max-width: 991px) {
+	.contacts {
+		padding: 15px;
+		.desc{
+			width: calc(100% - 360px);
+		}
+		form{
+			max-width: 300px;
+		}
+		p:not([class]) {
+			margin-bottom: 15px;
+			font-size: 14px;
+			line-height: 28px;
+		}
+	}
+}
